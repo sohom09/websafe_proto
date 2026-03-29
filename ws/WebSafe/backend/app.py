@@ -177,8 +177,11 @@ class PhishingDetector:
 
     def load_model(self):
         try:
-            self.model = joblib.load('phishing_model.pkl')
-            logger.info("CatBoost model loaded successfully")
+            BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+            model_path = os.path.join(BASE_DIR, 'phishing_model.pkl')
+
+            self.model = joblib.load(model_path)
+            logger.info(f"Model loaded from {model_path}")
         except FileNotFoundError:
             logger.error("phishing_model.pkl not found!")
             raise
