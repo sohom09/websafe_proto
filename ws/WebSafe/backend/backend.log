@@ -1131,3 +1131,116 @@
 2026-04-02 00:22:28,956 - INFO - URL: https://meet.google.com/eqr-bwmn-uba | Raw prediction: 0 | Probabilities: [0.62, 0.38]
 2026-04-02 00:22:28,958 - INFO - 127.0.0.1 - - [02/Apr/2026 00:22:28] "POST /predict HTTP/1.1" 200 -
 2026-04-02 00:32:29,758 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 00:32:30,300 - INFO -  * Restarting with stat
+2026-04-02 00:32:31,262 - INFO - Starting WebSafe Detection API...
+2026-04-02 00:32:33,005 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 00:32:33,024 - WARNING -  * Debugger is active!
+2026-04-02 00:32:33,036 - INFO -  * Debugger PIN: 331-630-996
+2026-04-02 01:02:50,362 - DEBUG - Starting new HTTP connection (1): websafe.com:80
+2026-04-02 01:02:51,284 - DEBUG - http://websafe.com:80 "HEAD / HTTP/1.1" 302 0
+2026-04-02 01:02:51,292 - DEBUG - Starting new HTTP connection (1): www.telepathy.com:80
+2026-04-02 01:02:52,263 - DEBUG - http://www.telepathy.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 01:02:52,279 - DEBUG - Starting new HTTPS connection (1): www.telepathy.com:443
+2026-04-02 01:02:55,650 - DEBUG - https://www.telepathy.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 01:02:55,660 - DEBUG - Starting new HTTP connection (1): telepathy.com:80
+2026-04-02 01:02:56,405 - DEBUG - http://telepathy.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 01:02:56,418 - DEBUG - Starting new HTTPS connection (1): telepathy.com:443
+2026-04-02 01:02:58,729 - DEBUG - https://telepathy.com:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 01:02:58,743 - DEBUG - Starting new HTTP connection (1): websafe.com:80
+2026-04-02 01:02:59,382 - DEBUG - http://websafe.com:80 "GET / HTTP/1.1" 302 0
+2026-04-02 01:02:59,389 - DEBUG - Starting new HTTP connection (1): www.telepathy.com:80
+2026-04-02 01:03:00,061 - DEBUG - http://www.telepathy.com:80 "GET / HTTP/1.1" 301 274
+2026-04-02 01:03:00,082 - DEBUG - Starting new HTTPS connection (1): www.telepathy.com:443
+2026-04-02 01:03:03,302 - DEBUG - https://www.telepathy.com:443 "GET / HTTP/1.1" 301 269
+2026-04-02 01:03:03,311 - DEBUG - Starting new HTTP connection (1): telepathy.com:80
+2026-04-02 01:03:03,962 - DEBUG - http://telepathy.com:80 "GET / HTTP/1.1" 301 270
+2026-04-02 01:03:03,975 - DEBUG - Starting new HTTPS connection (1): telepathy.com:443
+2026-04-02 01:03:06,422 - DEBUG - https://telepathy.com:443 "GET / HTTP/1.1" 200 None
+2026-04-02 01:03:07,662 - DEBUG - [http://websafe.com] Server Response Code: 200
+2026-04-02 01:03:07,662 - DEBUG - [http://websafe.com] Server Headers: {'Server': 'nginx/1.29.4', 'Date': 'Wed, 01 Apr 2026 19:33:06 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Vary': 'Accept-Encoding', 'Cache-Control': 'max-age=604800', 'Expires': 'Wed, 08 Apr 2026 17:21:34 GMT', 'X-Proxy-Cache': 'HIT', 'Content-Encoding': 'gzip'}
+2026-04-02 01:03:07,946 - DEBUG - Features dictionary extracted for http://websafe.com
+2026-04-02 01:03:08,084 - INFO - URL: http://websafe.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 01:03:08,088 - INFO - 127.0.0.1 - - [02/Apr/2026 01:03:08] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:29:44,002 - DEBUG - Starting new HTTPS connection (1): www.gulugulu.com:443
+2026-04-02 01:29:49,288 - WARNING - Failed to count redirects for https://www.gulugulu.com: HTTPSConnectionPool(host='www.gulugulu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gulugulu.com', port=443) at 0x17f2a3e2310>, 'Connection to www.gulugulu.com timed out. (connect timeout=5)'))
+2026-04-02 01:29:49,307 - DEBUG - Starting new HTTPS connection (1): www.gulugulu.com:443
+2026-04-02 01:29:54,373 - WARNING - Page analysis failed for https://www.gulugulu.com: HTTPSConnectionPool(host='www.gulugulu.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.gulugulu.com', port=443) at 0x17f2a3dba50>, 'Connection to www.gulugulu.com timed out. (connect timeout=5)'))
+2026-04-02 01:29:54,375 - DEBUG - Features dictionary extracted for https://www.gulugulu.com
+2026-04-02 01:29:54,496 - INFO - URL: https://www.gulugulu.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:29:54,499 - INFO - 127.0.0.1 - - [02/Apr/2026 01:29:54] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:30:45,091 - DEBUG - Starting new HTTPS connection (1): www.pornhub.com:443
+2026-04-02 01:30:50,147 - WARNING - Failed to count redirects for https://www.pornhub.com: HTTPSConnectionPool(host='www.pornhub.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.com', port=443) at 0x17f2a3d8210>, 'Connection to www.pornhub.com timed out. (connect timeout=5)'))
+2026-04-02 01:30:50,153 - DEBUG - Starting new HTTPS connection (1): www.pornhub.com:443
+2026-04-02 01:30:55,220 - WARNING - Page analysis failed for https://www.pornhub.com: HTTPSConnectionPool(host='www.pornhub.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.com', port=443) at 0x17f2a357310>, 'Connection to www.pornhub.com timed out. (connect timeout=5)'))
+2026-04-02 01:30:55,221 - DEBUG - Features dictionary extracted for https://www.pornhub.com
+2026-04-02 01:30:55,222 - WARNING - URL https://www.pornhub.com has no open ports and is completely unreachable. Flagging as non-existent.
+2026-04-02 01:30:55,224 - INFO - 127.0.0.1 - - [02/Apr/2026 01:30:55] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 01:31:47,765 - DEBUG - Starting new HTTPS connection (1): pornhub.org:443
+2026-04-02 01:31:49,260 - DEBUG - https://pornhub.org:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 01:31:49,736 - DEBUG - Starting new HTTPS connection (1): www.pornhub.org:443
+2026-04-02 01:31:54,799 - WARNING - Failed to count redirects for https://pornhub.org: HTTPSConnectionPool(host='www.pornhub.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.org', port=443) at 0x17f28d74ad0>, 'Connection to www.pornhub.org timed out. (connect timeout=5)'))
+2026-04-02 01:31:54,807 - DEBUG - Starting new HTTPS connection (1): pornhub.org:443
+2026-04-02 01:31:56,370 - DEBUG - https://pornhub.org:443 "GET / HTTP/1.1" 301 166
+2026-04-02 01:31:56,380 - DEBUG - Starting new HTTPS connection (1): www.pornhub.org:443
+2026-04-02 01:32:01,453 - WARNING - Page analysis failed for https://pornhub.org: HTTPSConnectionPool(host='www.pornhub.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.org', port=443) at 0x17f2a3db710>, 'Connection to www.pornhub.org timed out. (connect timeout=5)'))
+2026-04-02 01:32:01,454 - DEBUG - Features dictionary extracted for https://pornhub.org
+2026-04-02 01:32:01,557 - INFO - URL: https://pornhub.org | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:32:01,567 - INFO - 127.0.0.1 - - [02/Apr/2026 01:32:01] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:32:03,089 - DEBUG - Starting new HTTPS connection (1): pornhub.org:443
+2026-04-02 01:32:05,141 - DEBUG - https://pornhub.org:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 01:32:05,162 - DEBUG - Starting new HTTPS connection (1): www.pornhub.org:443
+2026-04-02 01:32:10,224 - WARNING - Failed to count redirects for https://pornhub.org: HTTPSConnectionPool(host='www.pornhub.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.org', port=443) at 0x17f2a3db9d0>, 'Connection to www.pornhub.org timed out. (connect timeout=5)'))
+2026-04-02 01:32:10,234 - DEBUG - Starting new HTTPS connection (1): pornhub.org:443
+2026-04-02 01:32:11,879 - DEBUG - https://pornhub.org:443 "GET / HTTP/1.1" 301 166
+2026-04-02 01:32:11,886 - DEBUG - Starting new HTTPS connection (1): www.pornhub.org:443
+2026-04-02 01:32:16,956 - WARNING - Page analysis failed for https://pornhub.org: HTTPSConnectionPool(host='www.pornhub.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.org', port=443) at 0x17f28e56c50>, 'Connection to www.pornhub.org timed out. (connect timeout=5)'))
+2026-04-02 01:32:16,956 - DEBUG - Features dictionary extracted for https://pornhub.org
+2026-04-02 01:32:17,067 - INFO - URL: https://pornhub.org | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:32:17,070 - INFO - 127.0.0.1 - - [02/Apr/2026 01:32:17] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:33:33,248 - DEBUG - Starting new HTTPS connection (1): www.erome.com:443
+2026-04-02 01:33:38,307 - WARNING - Failed to count redirects for https://www.erome.com/a/ILjwdnIb: HTTPSConnectionPool(host='www.erome.com', port=443): Max retries exceeded with url: /a/ILjwdnIb (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.erome.com', port=443) at 0x17f28e87410>, 'Connection to www.erome.com timed out. (connect timeout=5)'))
+2026-04-02 01:33:38,311 - DEBUG - Starting new HTTPS connection (1): www.erome.com:443
+2026-04-02 01:33:43,392 - WARNING - Page analysis failed for https://www.erome.com/a/ILjwdnIb: HTTPSConnectionPool(host='www.erome.com', port=443): Max retries exceeded with url: /a/ILjwdnIb (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.erome.com', port=443) at 0x17f28e87690>, 'Connection to www.erome.com timed out. (connect timeout=5)'))
+2026-04-02 01:33:43,393 - DEBUG - Features dictionary extracted for https://www.erome.com/a/ILjwdnIb
+2026-04-02 01:33:43,394 - WARNING - URL https://www.erome.com/a/ILjwdnIb has no open ports and is completely unreachable. Flagging as non-existent.
+2026-04-02 01:33:43,395 - INFO - 127.0.0.1 - - [02/Apr/2026 01:33:43] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 01:34:18,994 - DEBUG - Starting new HTTPS connection (1): wow.xxx:443
+2026-04-02 01:34:20,836 - DEBUG - https://wow.xxx:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 01:34:20,842 - DEBUG - Starting new HTTPS connection (1): www.wow.xxx:443
+2026-04-02 01:34:22,538 - DEBUG - https://www.wow.xxx:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 01:34:22,560 - DEBUG - Starting new HTTPS connection (1): wow.xxx:443
+2026-04-02 01:34:23,863 - DEBUG - https://wow.xxx:443 "GET / HTTP/1.1" 301 None
+2026-04-02 01:34:23,869 - DEBUG - Starting new HTTPS connection (1): www.wow.xxx:443
+2026-04-02 01:34:25,650 - DEBUG - https://www.wow.xxx:443 "GET / HTTP/1.1" 200 None
+2026-04-02 01:34:25,679 - DEBUG - [https://wow.xxx] Server Response Code: 200
+2026-04-02 01:34:25,680 - DEBUG - [https://wow.xxx] Server Headers: {'Date': 'Wed, 01 Apr 2026 20:04:25 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Set-Cookie': 'PHPSESSID=a23achfclfurjeb9g90vkomnp0; path=/; domain=.wow.xxx; SameSite=Lax, campaign_data=MHxub3wwfDB8bm8%3D; expires=Tue, 19-Jan-2038 03:14:07 GMT; Max-Age=372409782; path=/, kt_ips=2401%3A4900%3A88ae%3A2fe3%3A7427%3A33d%3Ab300%3A9921; expires=Thu, 02-Apr-2026 20:04:25 GMT; Max-Age=86400; path=/; domain=.wow.xxx; SameSite=Lax', 'Expires': 'Thu, 19 Nov 1981 08:52:00 GMT', 'Cache-Control': 'no-store, no-cache, must-revalidate', 'Pragma': 'no-cache', 'Vary': 'Accept-Encoding', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=T3muXf8U2bP0RT1RLFswZ1mh1vzigwFP8MIaR0q2dUdp6cu2lDQ%2BZn%2B6rk1cHSK8gIgfYSjiYe8EJuLigpdIP8%2Bh9v9a%2BM8CsHkheiQ%2FhaxhH01IICstw%2FeXpihMnjb%2F8bMp7STbSdUZqw%3D%3D"}]}', 'cf-cache-status': 'DYNAMIC', 'Server-Timing': 'cfCacheStatus;desc="DYNAMIC", cfEdge;dur=2,cfOrigin;dur=88', 'Content-Encoding': 'gzip', 'CF-RAY': '9e5a33ec1da5fc1f-MRS', 'alt-svc': 'h3=":443"; ma=86400'}
+2026-04-02 01:34:25,922 - DEBUG - Features dictionary extracted for https://wow.xxx
+2026-04-02 01:34:25,963 - INFO - URL: https://wow.xxx | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:34:25,965 - INFO - 127.0.0.1 - - [02/Apr/2026 01:34:25] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:35:12,820 - DEBUG - Starting new HTTP connection (1): iemcrp.com:80
+2026-04-02 01:35:13,096 - DEBUG - http://iemcrp.com:80 "HEAD / HTTP/1.1" 403 0
+2026-04-02 01:35:13,103 - DEBUG - Starting new HTTP connection (1): iemcrp.com:80
+2026-04-02 01:35:13,298 - DEBUG - http://iemcrp.com:80 "GET / HTTP/1.1" 403 None
+2026-04-02 01:35:13,301 - DEBUG - [http://iemcrp.com] Server Response Code: 403
+2026-04-02 01:35:13,303 - DEBUG - [http://iemcrp.com] Server Headers: {'Date': 'Wed, 01 Apr 2026 20:05:13 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Accept-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cf-Mitigated': 'challenge', 'Critical-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cross-Origin-Embedder-Policy': 'require-corp', 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Resource-Policy': 'same-origin', 'Origin-Agent-Cluster': '?1', 'Permissions-Policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'Referrer-Policy': 'same-origin', 'Server-Timing': 'chlray;desc="9e5a3516cc7d3c34", cfEdge;dur=12,cfOrigin;dur=0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=30zwDWTV9Frb0y%2BwAPT9CsMTDNNhudLJIp7HfDoT%2FowRDBmo2Wg7%2BhvlV05JErzH6IZ9RMgQeIxsOx5r1N6ZLo9b2yo3CyVCuR%2BcCi45HZkVd6T10hvp1U0CpDovfAZLRO7CfBf6Oz0%3D"}]}, {"group":"cf-csp-endpoint","max_age":86400,"endpoints":[{"url":"https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=YjSpJ1mAFHCF7ub_0chMabPN7VFr7uuxrYuLUuiT.Ac-1775073913.4022765-1.0.1.1-5DG4psLQ__LqReLmWtJsU6lKLvw4ucua7WK.aIf9SSrOiS0hmJa6UPqUG1jbVhhhgTCV0dISHC1Vs6eq.3zOJzknos5rnPAXPYK0vka8ciWFDGb4p83lcici6S72fBo7IHEr.XIue0qQrODiuf9ITGp8P_L.y8gJqlvBBwi0K1w"}]}', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Content-Security-Policy-Report-Only': "script-src 'unsafe-inline' 'unsafe-eval'; connect-src 'none'; report-uri https://csp-reporting.cloudflare.com/cdn-cgi/script_monitor/report?m=YjSpJ1mAFHCF7ub_0chMabPN7VFr7uuxrYuLUuiT.Ac-1775073913.4022765-1.0.1.1-5DG4psLQ__LqReLmWtJsU6lKLvw4ucua7WK.aIf9SSrOiS0hmJa6UPqUG1jbVhhhgTCV0dISHC1Vs6eq.3zOJzknos5rnPAXPYK0vka8ciWFDGb4p83lcici6S72fBo7IHEr.XIue0qQrODiuf9ITGp8P_L.y8gJqlvBBwi0K1w; report-to cf-csp-endpoint", 'Content-Encoding': 'gzip', 'Server': 'cloudflare', 'CF-RAY': '9e5a3516cc7d3c34-BOM', 'alt-svc': 'h3=":443"; ma=86400'}
+2026-04-02 01:35:13,310 - DEBUG - Features dictionary extracted for http://iemcrp.com
+2026-04-02 01:35:13,412 - INFO - URL: http://iemcrp.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:35:13,414 - INFO - 127.0.0.1 - - [02/Apr/2026 01:35:13] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:35:27,063 - DEBUG - Starting new HTTPS connection (1): iemcrp.com:443
+2026-04-02 01:35:28,205 - DEBUG - https://iemcrp.com:443 "HEAD / HTTP/1.1" 403 0
+2026-04-02 01:35:28,221 - DEBUG - Starting new HTTPS connection (1): iemcrp.com:443
+2026-04-02 01:35:29,191 - DEBUG - https://iemcrp.com:443 "GET / HTTP/1.1" 403 None
+2026-04-02 01:35:29,194 - DEBUG - [https://iemcrp.com] Server Response Code: 403
+2026-04-02 01:35:29,195 - DEBUG - [https://iemcrp.com] Server Headers: {'Date': 'Wed, 01 Apr 2026 20:05:29 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Accept-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cf-Mitigated': 'challenge', 'Critical-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cross-Origin-Embedder-Policy': 'require-corp', 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Resource-Policy': 'same-origin', 'Origin-Agent-Cluster': '?1', 'Permissions-Policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'Referrer-Policy': 'same-origin', 'Server-Timing': 'chlray;desc="9e5a357a1ceb3b10", cfEdge;dur=3,cfOrigin;dur=0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=0; includeSubDomains; preload', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GeqSF4t8qqt4W8VKEDJRdOAwJL7EbajmSQsdcowun9fpfvY4UE1LFWt33vlLv3DBC1vrwQirDfzi5aj%2F1suzbGC49vqmCEXLBZ9o3UiSqTeXOy2w23Z4Jh9WU%2BgV%2Fjijg5YswnYm9U8%3D"}]}', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Content-Encoding': 'gzip', 'Server': 'cloudflare', 'CF-RAY': '9e5a357a1ceb3b10-BOM', 'alt-svc': 'h3=":443"; ma=86400'}
+2026-04-02 01:35:29,207 - DEBUG - Features dictionary extracted for https://iemcrp.com
+2026-04-02 01:35:29,289 - INFO - URL: https://iemcrp.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:35:29,291 - INFO - 127.0.0.1 - - [02/Apr/2026 01:35:29] "POST /predict HTTP/1.1" 200 -
+2026-04-02 01:35:36,598 - DEBUG - Starting new HTTPS connection (1): www.iemcrp.com:443
+2026-04-02 01:35:37,824 - DEBUG - https://www.iemcrp.com:443 "HEAD / HTTP/1.1" 403 0
+2026-04-02 01:35:37,833 - DEBUG - Starting new HTTPS connection (1): www.iemcrp.com:443
+2026-04-02 01:35:39,011 - DEBUG - https://www.iemcrp.com:443 "GET / HTTP/1.1" 403 None
+2026-04-02 01:35:39,013 - DEBUG - [https://www.iemcrp.com] Server Response Code: 403
+2026-04-02 01:35:39,013 - DEBUG - [https://www.iemcrp.com] Server Headers: {'Date': 'Wed, 01 Apr 2026 20:05:39 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Accept-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cf-Mitigated': 'challenge', 'Critical-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cross-Origin-Embedder-Policy': 'require-corp', 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Resource-Policy': 'same-origin', 'Origin-Agent-Cluster': '?1', 'Permissions-Policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'Referrer-Policy': 'same-origin', 'Server-Timing': 'chlray;desc="9e5a35b78f555ed5", cfEdge;dur=2,cfOrigin;dur=0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Strict-Transport-Security': 'max-age=0; includeSubDomains; preload', 'Report-To': '{"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=vi8LYC2MZ7itWx79kcdSU6MsCuxzv7kL1oV60r6L67QKdxtWOMiXWSLIG7X7jdLQ9YM%2BzDJmEvxSPCWnRPMp8VXwnJ4wKXX2SyC5STy6ax5H6Sboe9471UuQ9yT9HtoctLZ4Vz3GEH%2B4SY%2Bp"}]}', 'Nel': '{"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}', 'Content-Encoding': 'gzip', 'Server': 'cloudflare', 'CF-RAY': '9e5a35b78f555ed5-DEL', 'alt-svc': 'h3=":443"; ma=86400'}
+2026-04-02 01:35:39,020 - DEBUG - Features dictionary extracted for https://www.iemcrp.com
+2026-04-02 01:35:39,107 - INFO - URL: https://www.iemcrp.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 01:35:39,110 - INFO - 127.0.0.1 - - [02/Apr/2026 01:35:39] "POST /predict HTTP/1.1" 200 -
