@@ -10,14 +10,16 @@ from datetime import datetime
 from bs4 import BeautifulSoup
 import logging
 import warnings
+import socket
+import ssl
+import whois
 
 # Suppress warnings for cleaner logs
 warnings.filterwarnings('ignore')
 
 # Initialize Flask application
 app = Flask(__name__)
-
-# Enable CORS for cross-browser extension compatibility
+CORS(app)
 CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Set up logging
@@ -35,7 +37,7 @@ logger = logging.getLogger(__name__)
 BACKEND_CONFIG = {
     'HOST': '0.0.0.0',
     'PORT': 5000,
-    'BASE_URL': 'http://localhost:5000'
+    'BASE_URL': 'http://127.0.0.1:5000'
 }
 
 # Feature labels for frontend
@@ -44,13 +46,18 @@ FEATURE_LABELS = {
     'has_at_symbol': {'name': 'At Symbol', 'icon': '❗', 'description': lambda v: 'Contains @ symbol' if v else 'No @ symbol'},
     'has_dash': {'name': 'Domain Dash', 'icon': '➖', 'description': lambda v: 'Dash in domain' if v else 'No dash in domain'},
     'subdomain_count': {'name': 'Subdomains', 'icon': '🌐', 'description': lambda v: f'{v} subdomains'},
-    'is_https': {'name': 'SSL Certificate', 'icon': '🔒', 'description': lambda v: 'Valid SSL certificate' if v else 'No SSL certificate'},
+    'is_https': {'name': 'HTTPS (Scheme)', 'icon': '🔒', 'description': lambda v: 'Valid HTTPS scheme' if v else 'No HTTPS scheme'},
     'domain_age_days': {'name': 'Domain Age', 'icon': '📅', 'description': lambda v: f'Domain age: {v} days'},
     'has_ip_address': {'name': 'IP Address', 'icon': '🌍', 'description': lambda v: 'Uses IP address' if v else 'Uses domain name'},
     'redirect_count': {'name': 'Redirects', 'icon': '🔄', 'description': lambda v: f'{v} redirects'},
     'has_login_form': {'name': 'Login Form', 'icon': '🔑', 'description': lambda v: 'Contains login form' if v else 'No login form'},
     'has_iframe': {'name': 'Iframe', 'icon': '🖼️', 'description': lambda v: 'Contains iframe' if v else 'No iframe'},
-    'suspicious_words_count': {'name': 'Suspicious Words', 'icon': '🚨', 'description': lambda v: f'{v} suspicious words'}
+    'suspicious_words_count': {'name': 'Suspicious Words', 'icon': '🚨', 'description': lambda v: f'{v} suspicious words'},
+    
+    # New network-specific indicators for the frontend UI:
+    'port_80_open': {'name': 'Port 80 (HTTP)', 'icon': '🔌', 'description': lambda v: 'Port 80 is listening' if v else 'Port 80 closed'},
+    'port_443_open': {'name': 'Port 443 (HTTPS)', 'icon': '🛡️', 'description': lambda v: 'Socket 443 active' if v else 'Socket 443 closed'},
+    'server_reachable': {'name': 'Server Reachable', 'icon': '📡', 'description': lambda v: 'Active HTTP response' if v else 'No valid response'}
 }
 
 # Feature thresholds (used only for parameter coloring — not for ML score)
@@ -102,25 +109,60 @@ FEATURE_THRESHOLDS = {
     'domain_age_days': {          # placeholder — fake ages make this unreliable
         'safe': lambda v: True,
         'danger': lambda v: False,
+    },
+    'port_80_open': {
+        'safe': lambda v: True,
+    },
+    'port_443_open': {
+        'safe': lambda v: v == 1,
+        'warning': lambda v: v == 0,
+    },
+    'server_reachable': {
+        'safe': lambda v: v == 1,
+        'danger': lambda v: v == 0,
     }
 }
 
 class PhishingDetector:
     def __init__(self):
         self.model = None
-        self.feature_names = list(FEATURE_LABELS.keys())
+        # Explicit original ML features
+        self.feature_names = [
+            'url_length', 'has_at_symbol', 'has_dash', 'subdomain_count',
+            'is_https', 'domain_age_days', 'has_ip_address', 'redirect_count',
+            'has_login_form', 'has_iframe', 'suspicious_words_count'
+        ]
 
-    def extract_features(self, url):
+    def check_port(self, domain, port, timeout=2):
+        """Check if a specific port is active and listening on the domain."""
+        try:
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.settimeout(timeout)
+            result = sock.connect_ex((domain, port))
+            sock.close()
+            return result == 0
+        except:
+            return False
+
+    def extract_features_dict(self, url):
         features = {}
         try:
             parsed_url = urlparse(url)
             domain = parsed_url.netloc.lower() if parsed_url.netloc else parsed_url.path.lower()
+            
+            # Remove any port from domain if present for accurate socket/whois checks
+            domain = domain.split(':')[0]
 
             features['url_length'] = len(url)
             features['has_at_symbol'] = 1 if '@' in url else 0
             features['has_dash'] = 1 if '-' in domain else 0
             features['subdomain_count'] = max(len(domain.split('.')) - 2, 0)
-            features['is_https'] = 1 if parsed_url.scheme == 'https' else 0
+            
+            features['port_80_open'] = 1 if self.check_port(domain, 80) else 0
+            features['port_443_open'] = 1 if self.check_port(domain, 443) else 0
+            
+            # Real network check for HTTPS (port 443 listening) instead of just checking scheme string
+            features['is_https'] = features['port_443_open']
 
             ip_pattern = r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b'
             features['has_ip_address'] = 1 if re.search(ip_pattern, domain) else 0
@@ -133,15 +175,31 @@ class PhishingDetector:
             suspicious_words = ['login', 'verify', 'account', 'suspended', 'click', 'urgent']
             features['suspicious_words_count'] = sum(1 for word in suspicious_words if word.lower() in url.lower())
 
-            logger.debug(f"Features extracted for {url}: {features}")
+            logger.debug(f"Features dictionary extracted for {url}")
         except Exception as e:
-            logger.error(f"Error extracting features for {url}: {str(e)}")
+            logger.error(f"Error extracting features dict for {url}: {str(e)}")
             for feature in self.feature_names:
                 features[feature] = 0
 
-        return [features.get(name, 0) for name in self.feature_names]
+        return features
+
+    def extract_features(self, url):
+        features_dict = self.extract_features_dict(url)
+        return [features_dict.get(name, 0) for name in self.feature_names]
 
     def get_domain_age(self, domain):
+        try:
+            domain_info = whois.whois(domain)
+            creation_date = domain_info.creation_date
+            if type(creation_date) is list:
+                creation_date = creation_date[0]
+            if creation_date:
+                age = (datetime.now() - creation_date).days
+                return max(0, age)
+        except Exception as e:
+            logger.warning(f"Whois failed for {domain}: {str(e)}")
+        
+        # Fallback to pseudo-random placeholder if whois fails
         try:
             return hash(domain) % 365 + 30
         except:
@@ -159,11 +217,23 @@ class PhishingDetector:
             return 0
 
     def analyze_page_content(self, url):
-        features = {'has_login_form': 0, 'has_iframe': 0}
+        features = {'has_login_form': 0, 'has_iframe': 0, 'server_reachable': 0}
         try:
             if url.startswith(('chrome://', 'about:', 'edge://', 'brave://')):
                 return features
-            response = requests.get(url, timeout=5)
+            
+            # Send a legit HTTP request to the URL mimicking a browser and analyze response
+            headers = {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+            }
+            response = requests.get(url, headers=headers, timeout=5, verify=True)
+            features['server_reachable'] = 1 if response.status_code < 500 else 0
+            
+            # Analyze response characteristics
+            logger.debug(f"[{url}] Server Response Code: {response.status_code}")
+            logger.debug(f"[{url}] Server Headers: {dict(response.headers)}")
+            
             soup = BeautifulSoup(response.text, 'html.parser')
 
             if soup.find_all(['input'], {'type': ['password']}):
@@ -171,7 +241,11 @@ class PhishingDetector:
 
             if soup.find_all('iframe'):
                 features['has_iframe'] = 1
+        except requests.exceptions.SSLError as e:
+            features['server_reachable'] = 0
+            logger.warning(f"SSL validation failed during request to {url}: {str(e)}")
         except Exception as e:
+            features['server_reachable'] = 0
             logger.warning(f"Page analysis failed for {url}: {str(e)}")
         return features
 
@@ -194,9 +268,22 @@ class PhishingDetector:
             self.load_model()
 
         try:
-            features = self.extract_features(url)
-            prediction = self.model.predict([features])[0]
-            probability = self.model.predict_proba([features])[0]
+            features_dict = self.extract_features_dict(url)
+            
+            # ISP Hijack / Offline server defense
+            if features_dict.get('port_80_open') == 0 and features_dict.get('port_443_open') == 0 and features_dict.get('server_reachable') == 0:
+                logger.warning(f"URL {url} has no open ports and is completely unreachable. Flagging as non-existent.")
+                return {
+                    'prediction': 'error',
+                    'score': 1.0,
+                    'parameters': [],
+                    'message': 'Please enter a valid URL. The website is offline or does not exist.'
+                }
+
+            ml_features = [features_dict.get(name, 0) for name in self.feature_names]
+            
+            prediction = self.model.predict([ml_features])[0]
+            probability = self.model.predict_proba([ml_features])[0]
 
             # ── IMPORTANT: Log probabilities so you can see what the model thinks ──
             logger.info(f"URL: {url} | Raw prediction: {prediction} | Probabilities: {probability.tolist()}")
@@ -217,26 +304,29 @@ class PhishingDetector:
 
             # Build parameters display
             parameters = []
-            for name, value in zip(self.feature_names, features):
-                thresh = FEATURE_THRESHOLDS.get(name, {})
-                status = 'safe'
-                if 'malware' in thresh and thresh['malware'](value):
-                    status = 'malware'
-                elif 'danger' in thresh and thresh['danger'](value):
-                    status = 'danger'
-                elif 'warning' in thresh and thresh['warning'](value):
-                    status = 'warning'
+            for name, value in features_dict.items():
+                if name in FEATURE_LABELS:
+                    thresh = FEATURE_THRESHOLDS.get(name, {})
+                    status = 'safe'
+                    if 'malware' in thresh and thresh['malware'](value):
+                        status = 'malware'
+                    elif 'danger' in thresh and thresh['danger'](value):
+                        status = 'danger'
+                    elif 'warning' in thresh and thresh['warning'](value):
+                        status = 'warning'
 
-                parameters.append({
-                    'name': FEATURE_LABELS[name]['name'],
-                    'icon': FEATURE_LABELS[name]['icon'],
-                    'status': status,
-                    'description': FEATURE_LABELS[name]['description'](value)
-                })
+                    parameters.append({
+                        'name': FEATURE_LABELS[name]['name'],
+                        'icon': FEATURE_LABELS[name]['icon'],
+                        'status': status,
+                        'description': FEATURE_LABELS[name]['description'](value)
+                    })
             all_safe = all(p['status'] == 'safe' for p in parameters)
             if all_safe:
-                score = 9.5
-                logger.warning("FORCED HIGH SCORE because all rule-based params are safe")
+                if features_dict.get('port_443_open') == 1 and features_dict.get('server_reachable') == 1:
+                    score = 10.0
+                else:
+                    score = 9.0
 
             # Label mapping — binary version
             prediction_map = {0: 'legitimate', 1: 'phishing'}
@@ -272,7 +362,24 @@ def validate_url(url):
         return bool(parsed.scheme and (parsed.netloc or parsed.path))
     except:
         return False
+def domain_exists(url):
+    try:
+        parsed = urlparse(url)
+        domain = parsed.netloc or parsed.path
+        domain = domain.split(':')[0]
+        socket.gethostbyname(domain)
+        return True
+    except socket.gaierror:
+        return False
 
+@app.route('/')
+def home():
+    return jsonify({
+        "status": "online",
+        "message": "WebSafe Detection API is running!",
+        "backend": "Flask",
+        "ngrok_url": BACKEND_CONFIG['BASE_URL']
+    })
 @app.route('/predict', methods=['POST'])
 def predict_url():
     try:
@@ -281,13 +388,20 @@ def predict_url():
             return jsonify({'error': 'URL is required'}), 400
 
         url = data['url'].strip()
-        if not validate_url(url):
-            return jsonify({'error': 'Invalid URL format'}), 400
-
         if not url.startswith(('http://', 'https://')):
             url = 'https://' + url
 
+        if not validate_url(url):
+            return jsonify({'error': 'Invalid URL format'}), 400
+            url = 'https://' + url
+
+        if not domain_exists(url):
+            return jsonify({'error': 'Please enter a valid URL. The website does not exist.'}), 400
+
         result = detector.predict(url)
+
+        if result.get('prediction') == 'error':
+            return jsonify({'error': result.get('message', 'Please enter a valid URL. The website does not exist.')}), 400
 
         response = {
             'score': result['score'],

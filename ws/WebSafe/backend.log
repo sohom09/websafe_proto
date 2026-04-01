@@ -1,0 +1,515 @@
+2026-03-30 23:50:39,106 - INFO - Starting WebSafe Detection API...
+2026-03-30 23:50:44,798 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-30 23:50:45,517 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-03-30 23:50:45,517 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-30 23:50:45,522 - INFO -  * Restarting with stat
+2026-03-30 23:50:46,130 - INFO - Starting WebSafe Detection API...
+2026-03-30 23:50:47,517 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-30 23:50:47,533 - WARNING -  * Debugger is active!
+2026-03-30 23:50:47,550 - INFO -  * Debugger PIN: 441-872-849
+2026-03-30 23:51:45,202 - DEBUG - Starting new HTTPS connection (1): portal.wbsedcl.in:443
+2026-03-30 23:51:46,846 - DEBUG - https://portal.wbsedcl.in:443 "HEAD /bdpayres/ResponseProcessor HTTP/1.1" 200 0
+2026-03-30 23:51:46,858 - DEBUG - Starting new HTTPS connection (1): portal.wbsedcl.in:443
+2026-03-30 23:51:48,473 - DEBUG - https://portal.wbsedcl.in:443 "GET /bdpayres/ResponseProcessor HTTP/1.1" 200 20
+2026-03-30 23:51:48,481 - DEBUG - Encoding detection: ascii is most likely the one.
+2026-03-30 23:51:48,485 - DEBUG - Features extracted for https://portal.wbsedcl.in/bdpayres/ResponseProcessor: {'url_length': 52, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 387, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-30 23:51:48,541 - INFO - URL: https://portal.wbsedcl.in/bdpayres/ResponseProcessor | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-30 23:51:48,542 - WARNING - FORCED HIGH SCORE because all rule-based params are safe
+2026-03-30 23:51:48,547 - INFO - 127.0.0.1 - - [30/Mar/2026 23:51:48] "POST /predict HTTP/1.1" 200 -
+2026-03-31 00:05:34,094 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 00:05:34,628 - INFO -  * Restarting with stat
+2026-03-31 00:05:35,710 - INFO - Starting WebSafe Detection API...
+2026-03-31 00:05:38,488 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 00:05:38,528 - WARNING -  * Debugger is active!
+2026-03-31 00:05:38,551 - INFO -  * Debugger PIN: 441-872-849
+2026-03-31 00:13:48,112 - INFO - Starting WebSafe Detection API...
+2026-03-31 00:13:49,987 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 00:13:50,572 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-03-31 00:13:50,572 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 00:13:50,572 - INFO -  * Restarting with stat
+2026-03-31 00:13:51,177 - INFO - Starting WebSafe Detection API...
+2026-03-31 00:13:52,807 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 00:13:52,817 - WARNING -  * Debugger is active!
+2026-03-31 00:13:52,847 - INFO -  * Debugger PIN: 441-872-849
+2026-03-31 00:14:00,007 - DEBUG - Starting new HTTPS connection (1): portal.wbsedcl.in:443
+2026-03-31 00:14:01,538 - DEBUG - https://portal.wbsedcl.in:443 "HEAD /bdpayres/ResponseProcessor HTTP/1.1" 200 0
+2026-03-31 00:14:01,548 - DEBUG - Starting new HTTPS connection (1): portal.wbsedcl.in:443
+2026-03-31 00:14:03,053 - DEBUG - https://portal.wbsedcl.in:443 "GET /bdpayres/ResponseProcessor HTTP/1.1" 200 20
+2026-03-31 00:14:03,065 - DEBUG - Encoding detection: ascii is most likely the one.
+2026-03-31 00:14:03,071 - DEBUG - Features extracted for https://portal.wbsedcl.in/bdpayres/ResponseProcessor: {'url_length': 52, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 155, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 00:14:03,177 - INFO - URL: https://portal.wbsedcl.in/bdpayres/ResponseProcessor | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 00:14:03,181 - INFO - 127.0.0.1 - - [31/Mar/2026 00:14:03] "POST /predict HTTP/1.1" 200 -
+2026-03-31 00:14:18,666 - DEBUG - Starting new HTTP connection (1): portal.wbsedcl.in:80
+2026-03-31 00:14:19,030 - DEBUG - http://portal.wbsedcl.in:80 "HEAD /bdpayres/ResponseProcessor HTTP/1.1" 302 0
+2026-03-31 00:14:19,037 - DEBUG - Starting new HTTPS connection (1): portal.wbsedcl.in:443
+2026-03-31 00:14:20,623 - DEBUG - https://portal.wbsedcl.in:443 "HEAD / HTTP/1.1" 302 0
+2026-03-31 00:14:20,790 - DEBUG - https://portal.wbsedcl.in:443 "HEAD /irj/go/km/docs/internet/new_website/Home.html HTTP/1.1" 200 0
+2026-03-31 00:14:20,797 - DEBUG - Starting new HTTP connection (1): portal.wbsedcl.in:80
+2026-03-31 00:14:21,067 - DEBUG - http://portal.wbsedcl.in:80 "GET /bdpayres/ResponseProcessor HTTP/1.1" 302 0
+2026-03-31 00:14:21,076 - DEBUG - Starting new HTTPS connection (1): portal.wbsedcl.in:443
+2026-03-31 00:14:22,420 - DEBUG - https://portal.wbsedcl.in:443 "GET / HTTP/1.1" 302 0
+2026-03-31 00:14:22,578 - DEBUG - https://portal.wbsedcl.in:443 "GET /irj/go/km/docs/internet/new_website/Home.html HTTP/1.1" 200 10514
+2026-03-31 00:14:22,765 - DEBUG - Features extracted for http://portal.wbsedcl.in/bdpayres/ResponseProcessor: {'url_length': 51, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 155, 'redirect_count': 2, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 00:14:22,835 - INFO - URL: http://portal.wbsedcl.in/bdpayres/ResponseProcessor | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-03-31 00:14:22,838 - INFO - 127.0.0.1 - - [31/Mar/2026 00:14:22] "POST /predict HTTP/1.1" 200 -
+2026-03-31 00:39:01,134 - INFO - 127.0.0.1 - - [31/Mar/2026 00:39:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-31 00:39:16,302 - INFO - 127.0.0.1 - - [31/Mar/2026 00:39:16] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 00:40:33,124 - INFO - 127.0.0.1 - - [31/Mar/2026 00:40:33] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 00:51:30,137 - INFO - 127.0.0.1 - - [31/Mar/2026 00:51:30] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 09:15:49,948 - INFO - Starting WebSafe Detection API...
+2026-03-31 09:16:01,045 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 09:16:01,200 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-03-31 09:16:01,200 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 09:16:01,211 - INFO -  * Restarting with stat
+2026-03-31 09:16:02,253 - INFO - Starting WebSafe Detection API...
+2026-03-31 09:16:05,492 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 09:16:05,513 - WARNING -  * Debugger is active!
+2026-03-31 09:16:05,538 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 09:16:13,716 - INFO - 127.0.0.1 - - [31/Mar/2026 09:16:13] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 09:16:14,299 - INFO - 127.0.0.1 - - [31/Mar/2026 09:16:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-31 09:32:54,721 - INFO - 127.0.0.1 - - [31/Mar/2026 09:32:54] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 09:41:29,480 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 09:41:30,187 - INFO -  * Restarting with stat
+2026-03-31 09:41:32,986 - INFO - Starting WebSafe Detection API...
+2026-03-31 09:41:39,628 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 09:41:39,685 - WARNING -  * Debugger is active!
+2026-03-31 09:41:39,748 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 09:42:39,783 - INFO - 127.0.0.1 - - [31/Mar/2026 09:42:39] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 09:46:30,882 - INFO - 127.0.0.1 - - [31/Mar/2026 09:46:30] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 09:58:25,208 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 09:58:25,626 - INFO -  * Restarting with stat
+2026-03-31 09:58:26,724 - INFO - Starting WebSafe Detection API...
+2026-03-31 09:58:28,908 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 09:58:28,968 - WARNING -  * Debugger is active!
+2026-03-31 09:58:29,055 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 09:58:30,107 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 09:58:30,541 - INFO -  * Restarting with stat
+2026-03-31 09:58:31,210 - INFO - Starting WebSafe Detection API...
+2026-03-31 09:58:33,085 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 09:58:33,136 - WARNING -  * Debugger is active!
+2026-03-31 09:58:33,176 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 09:58:34,236 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 09:58:34,610 - INFO -  * Restarting with stat
+2026-03-31 09:58:35,288 - INFO - Starting WebSafe Detection API...
+2026-03-31 09:58:36,929 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 09:58:36,941 - WARNING -  * Debugger is active!
+2026-03-31 09:58:36,957 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 09:59:02,713 - INFO - 127.0.0.1 - - [31/Mar/2026 09:59:02] "[33mGET / HTTP/1.1[0m" 404 -
+2026-03-31 10:19:49,161 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 10:19:49,668 - INFO -  * Restarting with stat
+2026-03-31 10:19:50,405 - INFO - Starting WebSafe Detection API...
+2026-03-31 10:19:52,491 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 10:19:52,544 - WARNING -  * Debugger is active!
+2026-03-31 10:19:52,623 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 10:20:24,085 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 10:20:24,539 - INFO -  * Restarting with stat
+2026-03-31 10:20:25,836 - INFO - Starting WebSafe Detection API...
+2026-03-31 10:20:27,494 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 10:20:27,523 - WARNING -  * Debugger is active!
+2026-03-31 10:20:27,566 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 10:24:59,167 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-03-31 10:24:59,534 - INFO -  * Restarting with stat
+2026-03-31 10:25:00,791 - INFO - Starting WebSafe Detection API...
+2026-03-31 10:25:02,739 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 10:25:02,756 - WARNING -  * Debugger is active!
+2026-03-31 10:25:02,775 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 10:25:56,413 - INFO - Starting WebSafe Detection API...
+2026-03-31 10:25:58,439 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 10:25:58,553 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-03-31 10:25:58,554 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 10:25:58,568 - INFO -  * Restarting with stat
+2026-03-31 10:25:59,148 - INFO - Starting WebSafe Detection API...
+2026-03-31 10:26:00,851 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 10:26:00,951 - WARNING -  * Debugger is active!
+2026-03-31 10:26:00,977 - INFO -  * Debugger PIN: 331-630-996
+2026-03-31 10:26:12,450 - INFO - 127.0.0.1 - - [31/Mar/2026 10:26:12] "GET / HTTP/1.1" 200 -
+2026-03-31 10:27:29,456 - INFO - 127.0.0.1 - - [31/Mar/2026 10:27:29] "GET / HTTP/1.1" 200 -
+2026-03-31 10:27:29,646 - INFO - 127.0.0.1 - - [31/Mar/2026 10:27:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-03-31 22:03:48,594 - INFO - Starting WebSafe Detection API...
+2026-03-31 22:03:55,563 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 22:03:55,947 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-03-31 22:03:55,947 - INFO - [33mPress CTRL+C to quit[0m
+2026-03-31 22:03:55,957 - INFO -  * Restarting with stat
+2026-03-31 22:03:56,663 - INFO - Starting WebSafe Detection API...
+2026-03-31 22:03:58,103 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-03-31 22:03:58,153 - WARNING -  * Debugger is active!
+2026-03-31 22:03:58,201 - INFO -  * Debugger PIN: 441-872-849
+2026-03-31 22:04:05,633 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:04:08,390 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:04:08,396 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:04:11,103 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:04:11,104 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 382, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:04:11,165 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:04:11,168 - INFO - 127.0.0.1 - - [31/Mar/2026 22:04:11] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:04:17,991 - DEBUG - Starting new HTTPS connection (1): github.com:443
+2026-03-31 22:04:20,101 - DEBUG - https://github.com:443 "HEAD /sohom09/WebSafe-PublicSite HTTP/1.1" 200 0
+2026-03-31 22:04:20,106 - DEBUG - Starting new HTTPS connection (1): github.com:443
+2026-03-31 22:04:22,145 - DEBUG - https://github.com:443 "GET /sohom09/WebSafe-PublicSite HTTP/1.1" 200 None
+2026-03-31 22:04:22,522 - DEBUG - Features extracted for https://github.com/sohom09/WebSafe-PublicSite: {'url_length': 45, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 153, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:04:22,565 - INFO - URL: https://github.com/sohom09/WebSafe-PublicSite | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:04:22,567 - INFO - 127.0.0.1 - - [31/Mar/2026 22:04:22] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:04:45,996 - DEBUG - Starting new HTTPS connection (1): meet.google.com:443
+2026-03-31 22:04:47,057 - DEBUG - https://meet.google.com:443 "HEAD /eqr-bwmn-uba HTTP/1.1" 200 0
+2026-03-31 22:04:47,069 - DEBUG - Starting new HTTPS connection (1): meet.google.com:443
+2026-03-31 22:04:47,923 - DEBUG - https://meet.google.com:443 "GET /eqr-bwmn-uba HTTP/1.1" 200 None
+2026-03-31 22:04:47,934 - DEBUG - Features extracted for https://meet.google.com/eqr-bwmn-uba: {'url_length': 36, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 325, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:04:47,996 - INFO - URL: https://meet.google.com/eqr-bwmn-uba | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:04:47,998 - INFO - 127.0.0.1 - - [31/Mar/2026 22:04:47] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:15:24,046 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:15:26,807 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:15:26,816 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:15:29,545 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:15:29,545 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 382, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:15:29,573 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:15:29,575 - INFO - 127.0.0.1 - - [31/Mar/2026 22:15:29] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:16:19,156 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:16:21,889 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:16:21,896 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:16:24,621 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:16:24,622 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 382, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:16:24,689 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:16:24,691 - INFO - 127.0.0.1 - - [31/Mar/2026 22:16:24] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:16:42,727 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:16:45,458 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:16:45,461 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:16:48,178 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:16:48,179 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 382, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:16:48,219 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:16:48,220 - INFO - 127.0.0.1 - - [31/Mar/2026 22:16:48] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:27:56,186 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:27:58,920 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:27:58,925 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 22:28:01,657 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 22:28:01,659 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 382, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:28:01,747 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:28:01,749 - INFO - 127.0.0.1 - - [31/Mar/2026 22:28:01] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:28:06,162 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-03-31 22:28:07,929 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-03-31 22:28:07,936 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-03-31 22:28:08,828 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-03-31 22:28:08,888 - DEBUG - Features extracted for https://techplus.fun: {'url_length': 20, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 372, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 1, 'suspicious_words_count': 0}
+2026-03-31 22:28:08,986 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:28:08,988 - INFO - 127.0.0.1 - - [31/Mar/2026 22:28:08] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:28:37,038 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-03-31 22:28:37,219 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-03-31 22:28:37,226 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-03-31 22:28:38,206 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-03-31 22:28:38,218 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-03-31 22:28:38,379 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-03-31 22:28:38,386 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-03-31 22:28:39,128 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-03-31 22:28:39,184 - DEBUG - Features extracted for http://techplus.fun: {'url_length': 19, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 372, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 1, 'suspicious_words_count': 0}
+2026-03-31 22:28:39,281 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:28:39,284 - INFO - 127.0.0.1 - - [31/Mar/2026 22:28:39] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:37:23,861 - DEBUG - Starting new HTTP connection (1): abcd.xyz.com:80
+2026-03-31 22:37:24,801 - DEBUG - http://abcd.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-03-31 22:37:24,809 - DEBUG - Starting new HTTPS connection (1): gen.xyz:443
+2026-03-31 22:37:27,628 - DEBUG - https://gen.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-03-31 22:37:27,640 - DEBUG - Starting new HTTP connection (1): abcd.xyz.com:80
+2026-03-31 22:37:28,250 - DEBUG - http://abcd.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-03-31 22:37:28,258 - DEBUG - Starting new HTTPS connection (1): gen.xyz:443
+2026-03-31 22:37:30,508 - DEBUG - https://gen.xyz:443 "GET / HTTP/1.1" 200 None
+2026-03-31 22:37:30,627 - DEBUG - Features extracted for http://abcd.xyz.com: {'url_length': 19, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 335, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:37:30,690 - INFO - URL: http://abcd.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:37:30,692 - INFO - 127.0.0.1 - - [31/Mar/2026 22:37:30] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:37:49,719 - DEBUG - Starting new HTTPS connection (1): abcd.xyz.com:443
+2026-03-31 22:37:51,608 - DEBUG - https://abcd.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-03-31 22:37:51,610 - DEBUG - Starting new HTTPS connection (1): gen.xyz:443
+2026-03-31 22:37:53,103 - DEBUG - https://gen.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-03-31 22:37:53,116 - DEBUG - Starting new HTTPS connection (1): abcd.xyz.com:443
+2026-03-31 22:37:54,953 - DEBUG - https://abcd.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-03-31 22:37:54,958 - DEBUG - Starting new HTTPS connection (1): gen.xyz:443
+2026-03-31 22:37:57,114 - DEBUG - https://gen.xyz:443 "GET / HTTP/1.1" 200 None
+2026-03-31 22:37:57,832 - DEBUG - Features extracted for https://abcd.xyz.com: {'url_length': 20, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 335, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:37:57,927 - INFO - URL: https://abcd.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:37:57,929 - INFO - 127.0.0.1 - - [31/Mar/2026 22:37:57] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:45:11,467 - DEBUG - Starting new HTTP connection (1): abcd.xyz.com:80
+2026-03-31 22:45:13,061 - DEBUG - http://abcd.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-03-31 22:45:13,066 - DEBUG - Starting new HTTPS connection (1): gen.xyz:443
+2026-03-31 22:45:15,777 - DEBUG - https://gen.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-03-31 22:45:15,789 - DEBUG - Starting new HTTP connection (1): abcd.xyz.com:80
+2026-03-31 22:45:16,412 - DEBUG - http://abcd.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-03-31 22:45:16,418 - DEBUG - Starting new HTTPS connection (1): gen.xyz:443
+2026-03-31 22:45:18,638 - DEBUG - https://gen.xyz:443 "GET / HTTP/1.1" 200 None
+2026-03-31 22:45:20,352 - DEBUG - Features extracted for http://abcd.xyz.com: {'url_length': 19, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 335, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 22:45:20,413 - INFO - URL: http://abcd.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:45:20,415 - INFO - 127.0.0.1 - - [31/Mar/2026 22:45:20] "POST /predict HTTP/1.1" 200 -
+2026-03-31 22:45:35,813 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-03-31 22:45:35,977 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-03-31 22:45:35,984 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-03-31 22:45:37,154 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-03-31 22:45:37,161 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-03-31 22:45:37,353 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-03-31 22:45:37,360 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-03-31 22:45:38,718 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 5393
+2026-03-31 22:45:38,777 - DEBUG - Features extracted for http://techplus.fun: {'url_length': 19, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 372, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 1, 'suspicious_words_count': 0}
+2026-03-31 22:45:38,851 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 22:45:38,853 - INFO - 127.0.0.1 - - [31/Mar/2026 22:45:38] "POST /predict HTTP/1.1" 200 -
+2026-03-31 23:10:11,050 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 23:10:13,796 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 23:10:13,802 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-03-31 23:10:16,533 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-03-31 23:10:16,535 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 382, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-03-31 23:10:16,617 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-03-31 23:10:16,619 - INFO - 127.0.0.1 - - [31/Mar/2026 23:10:16] "POST /predict HTTP/1.1" 200 -
+2026-04-01 15:46:10,837 - INFO - Starting WebSafe Detection API...
+2026-04-01 15:46:18,283 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 15:46:18,670 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-01 15:46:18,670 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 15:46:18,686 - INFO -  * Restarting with stat
+2026-04-01 15:46:19,368 - INFO - Starting WebSafe Detection API...
+2026-04-01 15:46:20,978 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 15:46:21,002 - WARNING -  * Debugger is active!
+2026-04-01 15:46:21,022 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 15:46:26,729 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 15:46:29,469 - WARNING - Failed to count redirects for https://chrome://extensions/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /extensions/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 15:46:29,469 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 15:46:32,164 - WARNING - Page analysis failed for https://chrome://extensions/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /extensions/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 15:46:32,164 - DEBUG - Features extracted for https://chrome://extensions/: {'url_length': 28, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 355, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-04-01 15:46:32,205 - INFO - URL: https://chrome://extensions/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 15:46:32,206 - INFO - 127.0.0.1 - - [01/Apr/2026 15:46:32] "POST /predict HTTP/1.1" 200 -
+2026-04-01 15:48:39,219 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 15:48:41,919 - WARNING - Failed to count redirects for https://chrome://extensions/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /extensions/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 15:48:41,919 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 15:48:44,619 - WARNING - Page analysis failed for https://chrome://extensions/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /extensions/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 15:48:44,619 - DEBUG - Features extracted for https://chrome://extensions/: {'url_length': 28, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 355, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-04-01 15:48:44,674 - INFO - URL: https://chrome://extensions/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 15:48:44,674 - INFO - 127.0.0.1 - - [01/Apr/2026 15:48:44] "POST /predict HTTP/1.1" 200 -
+2026-04-01 15:59:30,515 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 15:59:33,201 - WARNING - Failed to count redirects for https://chrome://extensions/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /extensions/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 15:59:33,210 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 15:59:35,921 - WARNING - Page analysis failed for https://chrome://extensions/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: /extensions/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 15:59:35,921 - DEBUG - Features extracted for https://chrome://extensions/: {'url_length': 28, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 355, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-04-01 15:59:35,984 - INFO - URL: https://chrome://extensions/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 15:59:35,985 - INFO - 127.0.0.1 - - [01/Apr/2026 15:59:35] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:09:23,306 - DEBUG - Starting new HTTPS connection (1): websafe-publicsite.vercel.app:443
+2026-04-01 16:09:23,938 - DEBUG - https://websafe-publicsite.vercel.app:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:09:23,939 - DEBUG - Starting new HTTPS connection (1): websafe-publicsite.vercel.app:443
+2026-04-01 16:09:24,479 - DEBUG - https://websafe-publicsite.vercel.app:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:09:24,528 - DEBUG - Features extracted for https://websafe-publicsite.vercel.app/: {'url_length': 38, 'has_at_symbol': 0, 'has_dash': 1, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 220, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-04-01 16:09:24,545 - INFO - URL: https://websafe-publicsite.vercel.app/ | Raw prediction: 1 | Probabilities: [0.35, 0.65]
+2026-04-01 16:09:24,546 - INFO - 127.0.0.1 - - [01/Apr/2026 16:09:24] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:21:57,224 - INFO -  * Detected change in 'g:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:21:57,683 - INFO -  * Restarting with stat
+2026-04-01 16:21:58,735 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:22:00,819 - INFO - Model loaded from g:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:22:00,831 - WARNING -  * Debugger is active!
+2026-04-01 16:22:00,843 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:26:21,912 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:26:54,507 - ERROR - Model loading failed: No module named 'numpy._core'
+2026-04-01 16:26:54,508 - CRITICAL - Model failed to load. Exiting.
+Traceback (most recent call last):
+  File "G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\app.py", line 361, in <module>
+    detector.load_model()
+  File "G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\app.py", line 227, in load_model
+    self.model = joblib.load(model_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sohom\AppData\Local\Programs\Python\Python311\Lib\site-packages\joblib\numpy_pickle.py", line 658, in load
+    obj = _unpickle(fobj, filename, mmap_mode)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sohom\AppData\Local\Programs\Python\Python311\Lib\site-packages\joblib\numpy_pickle.py", line 577, in _unpickle
+    obj = unpickler.load()
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\sohom\AppData\Local\Programs\Python\Python311\Lib\pickle.py", line 1213, in load
+    dispatch[key[0]](self)
+  File "C:\Users\sohom\AppData\Local\Programs\Python\Python311\Lib\pickle.py", line 1538, in load_stack_global
+    self.append(self.find_class(module, name))
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sohom\AppData\Local\Programs\Python\Python311\Lib\pickle.py", line 1580, in find_class
+    __import__(module, level=0)
+ModuleNotFoundError: No module named 'numpy._core'
+2026-04-01 16:28:21,998 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:28:47,791 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:28:48,649 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-01 16:28:48,650 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-01 16:28:48,657 - INFO -  * Restarting with stat
+2026-04-01 16:28:49,412 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:28:50,781 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:28:50,791 - WARNING -  * Debugger is active!
+2026-04-01 16:28:50,801 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:29:08,611 - INFO - 127.0.0.1 - - [01/Apr/2026 16:29:08] "GET / HTTP/1.1" 200 -
+2026-04-01 16:29:09,006 - INFO - 127.0.0.1 - - [01/Apr/2026 16:29:09] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-04-01 16:29:17,739 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:29:20,442 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:29:20,446 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:29:23,157 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:29:23,157 - DEBUG - Features extracted for https://chrome://newtab/: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 0, 'is_https': 0, 'has_ip_address': 0, 'domain_age_days': 218, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-04-01 16:29:23,212 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:29:23,219 - INFO - 127.0.0.1 - - [01/Apr/2026 16:29:23] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:29:49,841 - DEBUG - Starting new HTTPS connection (1): gemini.google.com:443
+2026-04-01 16:29:54,409 - DEBUG - https://gemini.google.com:443 "HEAD /share/f9fd4f692678 HTTP/1.1" 200 0
+2026-04-01 16:29:54,412 - DEBUG - Starting new HTTPS connection (1): gemini.google.com:443
+2026-04-01 16:29:57,774 - DEBUG - https://gemini.google.com:443 "GET /share/f9fd4f692678 HTTP/1.1" 200 None
+2026-04-01 16:29:58,055 - DEBUG - [https://gemini.google.com/share/f9fd4f692678] Server Response Code: 200
+2026-04-01 16:29:58,056 - DEBUG - [https://gemini.google.com/share/f9fd4f692678] Server Headers: {'Content-Type': 'text/html; charset=utf-8', 'X-Frame-Options': 'DENY', 'Content-Security-Policy': "report-uri /_/BardChatUi/cspreport;default-src 'none';script-src * 'unsafe-inline' 'unsafe-eval' blob: data:;object-src * 'unsafe-inline' 'unsafe-eval';worker-src * 'unsafe-inline' 'unsafe-eval';img-src https://*.google.com https://*.googleusercontent.com https://*.gstatic.com https://*.youtube.com https://*.youtube-nocookie.com https://*.ytimg.com https://*.ggpht.com https://bard.datacommons.org blob: data: https://*.googleapis.com https://*.googletagmanager.com https://www.google.com https://google.com https://googleads.g.doubleclick.net;media-src https://*.google.com https://*.googleusercontent.com https://*.gstatic.com https://*.youtube.com https://*.youtube-nocookie.com https://*.ytimg.com https://*.ggpht.com https://bard.datacommons.org blob: https://*.googlevideo.com https://*.googleapis.com;child-src 'self' https://*.google.com https://*.scf.usercontent.goog https://www.youtube.com https://www.youtube-nocookie.com https://docs.google.com/picker/v2/home blob:;frame-src 'self' https://*.google.com https://*.scf.usercontent.goog https://www.youtube.com https://www.youtube-nocookie.com https://docs.google.com/picker/v2/home blob: https://www.googletagmanager.com https://bid.g.doubleclick.net https://td.doubleclick.net;connect-src 'self' https://*.google.com https://*.gstatic.com https://*.google-analytics.com https://csp.withgoogle.com/csp/proto/BardChatUi https://content-push.googleapis.com/upload/ https://*.googleusercontent.com https://ogads-pa.googleapis.com/ https://*.youtube.com https://*.youtube-nocookie.com https://*.googlevideo.com data: https://static.corp.google.com/external_content/scs_corp/bard/artifacts https://*.googleapis.com;style-src 'report-sample' 'unsafe-inline' https://www.gstatic.com https://fonts.googleapis.com;font-src https://fonts.gstatic.com https://www.gstatic.com;form-action https://ogs.google.com https://onegoogle-autopush.sandbox.google.com https://onegoogle-staging.sandbox.google.com https://studio.firebase.google.com/run.api;manifest-src 'none', script-src 'report-sample' 'nonce-B8nnNMKRUVZqkXlwjE-W1A' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:;object-src 'none';base-uri 'self';report-uri /_/BardChatUi/cspreport, script-src 'unsafe-inline' 'unsafe-eval' blob: data: 'self' https://apis.google.com https://ssl.gstatic.com https://www.google.com https://www.googletagmanager.com https://www.gstatic.com https://www.google-analytics.com https://maps.googleapis.com https://fonts.gstatic.com https://www.youtube.com/iframe_api https://www.youtube.com/s/player/ https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com/tools/feedback/ https://www.gstatic.com/feedback/js/ https://www.gstatic.com/inproduct_help/ https://www.gstatic.com/support/content/ https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://support.google.com/inapp/;report-uri /_/BardChatUi/cspreport/allowlist, require-trusted-types-for 'script';report-uri /_/BardChatUi/cspreport", 'Vary': 'Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site', 'x-ua-compatible': 'IE=edge', 'Cache-Control': 'no-cache, no-store, max-age=0, must-revalidate', 'Pragma': 'no-cache', 'Expires': 'Mon, 01 Jan 1990 00:00:00 GMT', 'Date': 'Wed, 01 Apr 2026 10:59:54 GMT', 'P3P': 'CP="This is not a P3P policy! See g.co/p3phelp for more info."', 'Cross-Origin-Opener-Policy': 'same-origin-allow-popups', 'Content-Security-Policy-Report-Only': "script-src 'unsafe-inline' 'unsafe-eval' blob: data: https://www.googleadservices.com/pagead/conversion/ https://www.googletagmanager.com/gtag/js https://www.googletagmanager.com/gtag/destination https://www.google.com/js/bg/ https://www.gstatic.com/external_hosted/highlightjs/highlight.pack.js https://www.gstatic.com/monaco_editor/ https://fonts.gstatic.com/s/e/notoemoji/search/wrapper.js https://www.youtube.com/iframe_api https://translate.google.com/translate_a/element.js https://www-onepick-opensocial.googleusercontent.com/gadgets/js/rpc.js https://www.gstatic.com/_/mss/boq-one-google/_/ https://www.gstatic.com/og/_/js/ https://apis.google.com/js/api.js https://apis.google.com/js/client.js https://www.google.com/tools/feedback/chat_load.js https://www.google.com/tools/feedback/help_api.js https://www.google.com/tools/feedback/load.js https://www.google.com/tools/feedback/open.js https://www.google.com/tools/feedback/open_to_help_guide_lazy.js https://www.gstatic.com/feedback/js/ https://www.gstatic.com/feedback/js/help/prod/service/lazy.min.js https://www.gstatic.com/inproduct_help/api/main.min.js https://www.gstatic.com/inproduct_help/chatsupport/chatsupport_button_v2.js https://www.gstatic.com/inproduct_help/service/lazy.min.js https://www.gstatic.com/uservoice/feedback/client/web/live/ https://www.gstatic.com/uservoice/surveys/resources/prod/js/survey/ https://maps.googleapis.com/maps/api/js https://www.gstatic.com/_/mss/boq-bard-web/_/js/k=boq-bard-web.BardChatUi.en_US.4U28b7_Fv6U.2018.O/ https://apis.google.com/_/scs/abc-static/_/js/ https://maps.googleapis.com/maps-api-v3/api/js/ https://maps.googleapis.com/maps/vt https://maps.googleapis.com/maps/api/js/ https://maps.googleapis.com/maps/api/place/js/ https://www.youtube.com/s/player/ https://translate.googleapis.com/_/translate_http/_/js/;report-uri /_/BardChatUi/cspreport/fine-allowlist", 'Permissions-Policy': 'ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*', 'Accept-CH': 'Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version', 'Cross-Origin-Resource-Policy': 'same-site', 'reporting-endpoints': 'default="/_/BardChatUi/web-reports?context=eJwNzHtQ1HUUBXBcuydyLEUbUhSHLBxTIB6mhEgq4oi4-9vfd0sdKAVSJ51GicV3NagBKgaWKKImPkJrSaEssQYyRs0Mk-XhPlnL0kSzh4ysk5vY-eMzc8-ce--AikHjBoQFTR8bFmS4dsMAmhXVbTCSP7nbEKCYLd2GePJTgA5Oumk4Qtt6bxo-oPSRtwwaXR11y3CDNrh2SQl9aq6U45SoV0oKbb9cKTtpPx2mU7cq5TQNDVTKMCqbu1t20F46QJ_QMXpr-W5ZTcaS3aKo59RueaXjkmRRkfuSVFJ7Was4KaS8VUKp4FCrFNNW2kdWb6uso2M_t8oJmvSyXabQa-V2yaXzlXZppbgmu0yi0Dt2GUGRIW0yjsbmtEk0HV3VJvXUuKtNmikuol1SqSu7XVpWtEsbNbzfLk2UndohS6jotw4ppfxhnfIeDY3qlOH0WFynDCJbTafU0Zy7naLIWHFZFFWfvCwfU8hkh4RSzBSHJNBUmknNMxzyI6Vsc8gM6ixzyL2DDnlAa0465F1qITv9fsYht2lEmFMiaPQ0p1xf6ZQ_aPMqp5TRp1RHE9c4ZSo9vt4pQ2nnJqfsJds4l9RR_HiXZM93yRI6lOmSqldd0rPOJU-ud0lUKXu63uOSW2Qd5JZ1VDvMLR-GuaU4zS3hulvG0MZlbtlFN7a45U_aWe6Ww9Rw3i1NlHrNLTPp3xiPGJ73yAPqH-uRF2Z5JImaFnnkDH1b6JGz9EmVR46T_6hHAhQe5JXeR7wSoOThXglP98poSsn0ygzK_scrS6gu4JWv6D1DlxQGd0kxhU7tkpG0claXrKd7q7vkAb29kzuU4e4SnRZE-iSHrsb65Abdn-GTfmk-KZ_nkwr6q9Anflru94mVfrjnk0v06qNXJJciOh5KJFX1PJRqit2Yjol056t0-OnAlXQcoZq1s1FLkxtnYxqFTs_ASHLPz4CPBmdlIJRqqzOQdDEDKfTLvDn4m7RQIxwTjBieZsQoilpqRDz5rUYEFxjRs92IXqr63oj9dOc-M63tb0IhzRxoQgY1RpvwHT0db0IkJVIy9UwyoTbVhM-pYZ4JKUUmHN9qwpd0rcIEP3XXmHCbem0m_EuePhN-ptPjNJyhrOc1LKQ3J2hYQYYXNAhNTtIwjQ68rKGGmpZoaCbbPg31dOYjDReorEbDhxSo0xBUz3-nNZQQzmp4goJaNPSnxIsakumRPzUs-E_D69T3gLlPw1jKHGTGAjr6lBk2KoowYytNn2LGTCqZZ0YprdlkxjtUUW7GHtr3AW92mDF-vxmxNOacGYk07CcznqWHHWb07zSj4a4Z31Ce34wCShIdgUd1BAXr-GKgjpQhOlLp3os6XpmuI4temq0jjdJNOowUoul4kjYu07GZ9r6po5q2F-iooJMbdDSX6ThPz9p0PEezG3RoFPa9jtFktetYS3lOztRBnXThio6LZLuuo56qburYT6fu6Giky706vHTovo4a-pqaKSGgI5Hm9-lYQLdF4W96Bgpj6Y0QhTw6OkShljaFK5SQO0LhKmU_rbCIJkQq_Eq_04gxCieTFBopa7LC3GSFTCpMUyim8RaFGLpG3dQ7VyFAsZkKCRSdqxBHp60K5-hEkcLXpBUr6FSzWcFGwWUKg0l2KAygomqFUtpzQOEgbTiisIXuf6bQ75jCX18o3KX_vlMIalZYcUFhNblbFLro4K8KH1NtQKGeZg20wETXwy3oppZRFtgpKMqCTYstKCV7ngUu6su3YM5KC4YMDLb1nriEwb9sPl7Ub3RU7oq3FuZYrUutBTnLC6Jzc_IXRa9enBttXZy_anH-wvjY-ImxCfEvxsRNWJiX8D-cewvm"', 'document-policy': 'include-js-call-stacks-in-crash-reports', 'Content-Encoding': 'gzip', 'Server': 'ESF', 'X-XSS-Protection': '0', 'X-Content-Type-Options': 'nosniff', 'Set-Cookie': 'NID=530=NFHqXzBOvU36K88P7uHz6wbHgucix0L4rz8ktu5qtZTsFjEhbYSAwxyrfQEn7CfUIQaUIb6FlxNOxVsTztAAxyPhqaX5gCFRfRwbkCxWo7d_1YjhXsHI2Yc1RlhCgGj3bvy7HwPEh94tBH4xH0hr-ZTBAYi4_TZi4SCy7IlvNoQ68cWsLbAraj82htIL56FH5Ea99E20D0CxiBUyXw; expires=Thu, 01-Oct-2026 10:59:52 GMT; path=/; domain=.google.com; Secure; HttpOnly; SameSite=none', 'Alt-Svc': 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000', 'Transfer-Encoding': 'chunked'}
+2026-04-01 16:29:58,076 - DEBUG - Features extracted for https://gemini.google.com/share/f9fd4f692678: {'url_length': 44, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 10425, 'redirect_count': 0, 'has_login_form': 0, 'has_iframe': 1, 'suspicious_words_count': 0}
+2026-04-01 16:29:58,162 - INFO - URL: https://gemini.google.com/share/f9fd4f692678 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:29:58,174 - INFO - 127.0.0.1 - - [01/Apr/2026 16:29:58] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:30:20,958 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-01 16:30:22,773 - DEBUG - https://abcd1234.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:30:22,774 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:30:24,912 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:30:24,925 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-01 16:30:29,325 - DEBUG - https://abcd1234.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-04-01 16:30:29,343 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:30:31,342 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:30:31,674 - DEBUG - [https://abcd1234.xyz.com] Server Response Code: 200
+2026-04-01 16:30:31,674 - DEBUG - [https://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Wed, 01 Apr 2026 11:00:27 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Thu, 01 Apr 2027 11:00:27 GMT; Path=/, session_id=c5STtn2zpCLz5wvUYHmOZU2WjvTZCBRzzEN3m87R0e5NZvVFrOunOzunagirvVgbYfanMfB-B5LnPHTqtjQ2; Expires=Thu, 01 Apr 2027 11:00:27 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-01 16:30:31,768 - DEBUG - Features extracted for https://abcd1234.xyz.com: {'url_length': 24, 'has_at_symbol': 0, 'has_dash': 0, 'subdomain_count': 1, 'is_https': 1, 'has_ip_address': 0, 'domain_age_days': 11706, 'redirect_count': 1, 'has_login_form': 0, 'has_iframe': 0, 'suspicious_words_count': 0}
+2026-04-01 16:30:31,913 - INFO - URL: https://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:30:31,913 - INFO - 127.0.0.1 - - [01/Apr/2026 16:30:31] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:38:48,357 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:38:48,669 - INFO -  * Restarting with stat
+2026-04-01 16:38:49,692 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:38:51,326 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:38:51,362 - WARNING -  * Debugger is active!
+2026-04-01 16:38:51,380 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:39:29,785 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:39:30,216 - INFO -  * Restarting with stat
+2026-04-01 16:39:31,205 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:39:32,662 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:39:32,684 - WARNING -  * Debugger is active!
+2026-04-01 16:39:32,721 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:40:00,076 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:40:00,512 - INFO -  * Restarting with stat
+2026-04-01 16:40:01,292 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:40:02,555 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:40:02,562 - WARNING -  * Debugger is active!
+2026-04-01 16:40:02,573 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:44:47,550 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:44:50,240 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:44:50,244 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:44:52,956 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:44:52,957 - DEBUG - Features dictionary extracted for https://chrome://newtab/
+2026-04-01 16:44:53,003 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:44:53,008 - INFO - 127.0.0.1 - - [01/Apr/2026 16:44:53] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:45:21,777 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:45:24,474 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:45:24,476 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:45:27,174 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:45:27,175 - DEBUG - Features dictionary extracted for https://chrome://newtab/
+2026-04-01 16:45:27,213 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:45:27,213 - INFO - 127.0.0.1 - - [01/Apr/2026 16:45:27] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:46:04,011 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-01 16:46:04,826 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:46:04,844 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-01 16:46:05,915 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:46:05,924 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:46:07,842 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:46:07,843 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-01 16:46:08,462 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-01 16:46:08,474 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-01 16:46:09,275 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-01 16:46:09,277 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:46:10,976 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:46:11,293 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-01 16:46:11,293 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Wed, 01 Apr 2026 11:16:07 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Thu, 01 Apr 2027 11:16:07 GMT; Path=/, session_id=ncWuGUjS6-VbUIgV6aSBD5__HW-ZI5cn1_Rty5MCbdKKrwelCH14dL-PJ6X2bltmwKPwjg4WW_ciIWDmOHj9; Expires=Thu, 01 Apr 2027 11:16:07 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-01 16:46:11,360 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-01 16:46:11,444 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-01 16:46:11,446 - INFO - 127.0.0.1 - - [01/Apr/2026 16:46:11] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:46:26,741 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-01 16:46:28,512 - DEBUG - https://abcd1234.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:46:28,527 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:46:30,292 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:46:30,305 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-01 16:46:31,955 - DEBUG - https://abcd1234.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-04-01 16:46:31,964 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:46:33,612 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:46:33,926 - DEBUG - [https://abcd1234.xyz.com] Server Response Code: 200
+2026-04-01 16:46:33,926 - DEBUG - [https://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Wed, 01 Apr 2026 11:16:30 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Thu, 01 Apr 2027 11:16:30 GMT; Path=/, session_id=Z2esON_5EbjgPm8BWVeFq-LvZkRWE7Xju-bdG3P457BhemPe-V3tHXz0afdOrx7XYItxGLrviOXI9rKc7Vyg; Expires=Thu, 01 Apr 2027 11:16:30 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-01 16:46:34,076 - DEBUG - Features dictionary extracted for https://abcd1234.xyz.com
+2026-04-01 16:46:34,165 - INFO - URL: https://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:46:34,165 - INFO - 127.0.0.1 - - [01/Apr/2026 16:46:34] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:47:02,719 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-01 16:47:02,992 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:47:02,992 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-01 16:47:04,176 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:47:04,192 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-01 16:47:04,385 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-01 16:47:04,389 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-01 16:47:05,329 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:47:05,329 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-01 16:47:05,329 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Wed, 01 Apr 2026 11:17:01 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-01 16:47:05,376 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-01 16:47:05,443 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:47:05,443 - INFO - 127.0.0.1 - - [01/Apr/2026 16:47:05] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:47:20,103 - DEBUG - Starting new HTTP connection (1): techplusfffffffff.fun:80
+2026-04-01 16:47:20,188 - WARNING - Failed to count redirects for http://techplusfffffffff.fun: HTTPConnectionPool(host='techplusfffffffff.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='techplusfffffffff.fun', port=80): Failed to resolve 'techplusfffffffff.fun' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:47:20,192 - DEBUG - Starting new HTTP connection (1): techplusfffffffff.fun:80
+2026-04-01 16:47:20,193 - WARNING - Page analysis failed for http://techplusfffffffff.fun: HTTPConnectionPool(host='techplusfffffffff.fun', port=80): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPConnection(host='techplusfffffffff.fun', port=80): Failed to resolve 'techplusfffffffff.fun' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:47:20,193 - DEBUG - Features dictionary extracted for http://techplusfffffffff.fun
+2026-04-01 16:47:20,243 - INFO - URL: http://techplusfffffffff.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:47:20,243 - INFO - 127.0.0.1 - - [01/Apr/2026 16:47:20] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:47:57,070 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:47:59,759 - WARNING - Failed to count redirects for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:47:59,762 - DEBUG - Starting new HTTPS connection (1): chrome:443
+2026-04-01 16:48:02,441 - WARNING - Page analysis failed for https://chrome://newtab/: HTTPSConnectionPool(host='chrome', port=443): Max retries exceeded with url: //newtab/ (Caused by NameResolutionError("HTTPSConnection(host='chrome', port=443): Failed to resolve 'chrome' ([Errno 11001] getaddrinfo failed)"))
+2026-04-01 16:48:02,443 - DEBUG - Features dictionary extracted for https://chrome://newtab/
+2026-04-01 16:48:02,471 - INFO - URL: https://chrome://newtab/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:48:02,473 - INFO - 127.0.0.1 - - [01/Apr/2026 16:48:02] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:52:43,599 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:52:43,912 - INFO -  * Restarting with stat
+2026-04-01 16:52:44,627 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:52:45,956 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:52:45,968 - WARNING -  * Debugger is active!
+2026-04-01 16:52:45,978 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:53:49,343 - INFO - 127.0.0.1 - - [01/Apr/2026 16:53:49] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-01 16:54:12,836 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-01 16:54:14,022 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:54:14,038 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-01 16:54:15,336 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:54:15,337 - DEBUG - [https://techplus.fun/] Server Response Code: 200
+2026-04-01 16:54:15,338 - DEBUG - [https://techplus.fun/] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Wed, 01 Apr 2026 11:24:11 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-01 16:54:15,373 - DEBUG - Features dictionary extracted for https://techplus.fun/
+2026-04-01 16:54:15,441 - INFO - URL: https://techplus.fun/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-01 16:54:15,444 - INFO - 127.0.0.1 - - [01/Apr/2026 16:54:15] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:54:36,008 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-01 16:54:36,789 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:54:36,794 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-01 16:54:37,667 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-01 16:54:37,680 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:54:39,664 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-01 16:54:39,672 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-01 16:54:40,295 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-01 16:54:40,298 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-01 16:54:40,896 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-01 16:54:40,906 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-01 16:54:45,444 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-01 16:54:45,772 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-01 16:54:45,773 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Wed, 01 Apr 2026 11:24:41 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Thu, 01 Apr 2027 11:16:30 GMT; Path=/, session_id=Z2esON_5EbjgPm8BWVeFq-LvZkRWE7Xju-bdG3P457BhemPe-V3tHXz0afdOrx7XYItxGLrviOXI9rKc7Vyg; Expires=Thu, 01 Apr 2027 11:16:30 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Thu, 01 Apr 2027 11:24:41 GMT; Path=/, session_id=PAY4TRC70NvFMFr6O_UNIP9GiY9ss417URcTwIrehp_jBu9IWcmC-KGE-AV2jSpKEwqxfT2xT78dfM31d13d; Expires=Thu, 01 Apr 2027 11:24:41 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-01 16:54:45,839 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-01 16:54:45,900 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-01 16:54:45,902 - INFO - 127.0.0.1 - - [01/Apr/2026 16:54:45] "POST /predict HTTP/1.1" 200 -
+2026-04-01 16:59:26,060 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:59:26,280 - INFO -  * Restarting with stat
+2026-04-01 16:59:26,928 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:59:28,205 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:59:28,219 - WARNING -  * Debugger is active!
+2026-04-01 16:59:28,239 - INFO -  * Debugger PIN: 331-630-996
+2026-04-01 16:59:43,360 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-01 16:59:43,544 - INFO -  * Restarting with stat
+2026-04-01 16:59:44,096 - INFO - Starting WebSafe Detection API...
+2026-04-01 16:59:45,269 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-01 16:59:45,283 - WARNING -  * Debugger is active!
+2026-04-01 16:59:45,286 - INFO -  * Debugger PIN: 331-630-996

@@ -15,7 +15,7 @@
     "<all_urls>"
   ],
   "host_permissions": [
-    "http://localhost:5000/*",
+    "http://127.0.0.1/*",
     "<all_urls>"
   ],
   "background": {
@@ -23,9 +23,15 @@
   },
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "css": ["content.css"]
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "content.css"
+      ]
     }
   ],
   "action": {

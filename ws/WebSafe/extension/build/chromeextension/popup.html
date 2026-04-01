@@ -1,16 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WebSafe Detector</title>
   <link rel="stylesheet" href="popup.css">
 </head>
+
 <body>
   <div class="container">
     <div class="header">
       <div class="logo">
-        <div class="shield-icon">🛡️</div>
+        <img src="logo.png" alt="WebSafe Logo" class="shield-img"
+          style="width: 28px; height: 28px; object-fit: contain; margin-right: 4px;">
         <h1>WebSafe</h1>
       </div>
       <button class="theme-toggle" id="themeToggle">
@@ -20,12 +23,7 @@
 
     <div class="input-section">
       <div class="input-wrapper">
-        <input 
-          type="url" 
-          id="urlInput" 
-          placeholder="Enter or paste a URL to analyze..."
-          class="url-input"
-        >
+        <input type="url" id="urlInput" placeholder="Enter or paste a URL to analyze..." class="url-input">
         <button id="pasteBtn" class="paste-btn" title="Paste from clipboard">📋</button>
       </div>
       <button id="analyzeBtn" class="analyze-btn">
@@ -64,7 +62,8 @@
         <span class="status-dot active"></span>
         <span>Auto-scanning active pages</span>
       </div>
-    </div><div class="auto-analyze-toggle">
+    </div>
+    <div class="auto-analyze-toggle">
       <label>
         <input type="checkbox" id="autoAnalyzeToggle">
         Auto Analyze URLs
@@ -72,6 +71,7 @@
     </div>
   </div>
 
-  <script src="popup.js"></script>
+  <script src="popup_latest.js"></script>
 </body>
+
 </html>

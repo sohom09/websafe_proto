@@ -53,7 +53,7 @@ class WebSafeUI {
       this.displayResults(analysis);
       this.expandPopup();
     } catch (error) {
-      this.showError('Analysis failed. Please try again.');
+      this.showError(error.message || 'Analysis failed. Please try again.');
       console.error('Analysis error:', error);
     } finally {
       this.showLoading(false);
@@ -62,13 +62,19 @@ class WebSafeUI {
 
   async performAnalysis(url) {
     try {
-      const response = await fetch('http://localhost:5000/predict', {
+      const response = await fetch('http://127.0.0.1:5000/predict', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ url: url })
       });
       if (!response.ok) {
-        throw new Error(`HTTP error ${response.status}: ${await response.text()}`);
+        const text = await response.text();
+        let errorMsg = `HTTP error ${response.status}`;
+        try {
+          const errData = JSON.parse(text);
+          if (errData.error) errorMsg = errData.error;
+        } catch (e) { }
+        throw new Error(errorMsg);
       }
       return await response.json();
     } catch (error) {
@@ -95,10 +101,10 @@ class WebSafeUI {
 
   displayResults(analysis) {
     this.resultsSection.classList.remove('hidden');
-    
+
     // Backend sends score in 0–10 range → we use it directly
     const score = Number(analysis.score);                  // keep decimal if present
-    const displayScore = Math.round(score);                // or use score.toFixed(1) for one decimal
+    const displayScore = score.toFixed(1);                 // format to exact decimal
     this.scoreValue.textContent = `${displayScore}/10`;
 
     // Progress bar: convert 0–10 → 0–100%
