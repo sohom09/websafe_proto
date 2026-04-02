@@ -1843,3 +1843,149 @@
 2026-04-02 14:03:54,400 - WARNING -  * Debugger is active!
 2026-04-02 14:03:54,413 - INFO -  * Debugger PIN: 441-872-849
 2026-04-02 14:04:09,500 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 14:04:09,846 - INFO -  * Restarting with stat
+2026-04-02 14:04:10,654 - INFO - Starting WebSafe Detection API...
+2026-04-02 14:04:11,937 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 14:04:11,937 - WARNING -  * Debugger is active!
+2026-04-02 14:04:11,952 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 14:05:44,792 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:05:44,795 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:05:45,743 - DEBUG - http://9779.info:80 "GET /%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ HTTP/1.1" 200 None
+2026-04-02 14:05:45,743 - WARNING - Failed to count redirects for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 14:05:45,743 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Response Code: 200
+2026-04-02 14:05:45,743 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:35:44 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 14:05:46,050 - DEBUG - Features dictionary extracted for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/
+2026-04-02 14:05:46,079 - INFO - URL: http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:05:46,084 - INFO - 127.0.0.1 - - [02/Apr/2026 14:05:46] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:06:01,200 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 14:06:01,200 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 14:06:01,371 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 14:06:01,371 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 14:06:01,377 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:06:01,377 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:06:01,922 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:06:01,924 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:06:01,926 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 14:06:01,929 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:36:00 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 14:06:02,426 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 14:06:02,464 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:06:02,466 - INFO - 127.0.0.1 - - [02/Apr/2026 14:06:02] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:06:08,947 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:06:08,950 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:06:09,546 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:06:09,547 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:06:09,550 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 14:06:09,550 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:36:08 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 14:06:09,576 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 14:06:09,598 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:06:09,599 - INFO - 127.0.0.1 - - [02/Apr/2026 14:06:09] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:06:11,987 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:06:11,987 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:06:12,561 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:06:12,561 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:06:12,561 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 14:06:12,561 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:36:11 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 14:06:12,600 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 14:06:12,614 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:06:12,614 - INFO - 127.0.0.1 - - [02/Apr/2026 14:06:12] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:06:27,277 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 14:06:27,277 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 14:06:28,150 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 14:06:28,158 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 14:06:28,159 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 14:06:28,159 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 14:06:28,986 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 14:06:28,991 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 14:06:29,026 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 14:06:29,036 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 14:06:30,308 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:06:30,329 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:06:30,626 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 14:06:30,626 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:36:29 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 07:41:22 GMT; Path=/, session_id=uGot_L9K5aJhuyfnd2TM3TmhMGXRckRweQgyTdDcAetwZ-MZkiyCVsTrcJnx81qFkF7oDnI0MdJLKWEiyul5; Expires=Fri, 02 Apr 2027 07:41:22 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:36:29 GMT; Path=/, session_id=jOe7ngMLV2qpo2LqPMhoEMoK7SK9is8C5Mi_2dxyOesAKLgXtM0Zrrh6l55ltYSCpBXUw-jvuIdwXQJwOMqd; Expires=Fri, 02 Apr 2027 08:36:29 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 14:06:30,777 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 14:06:30,822 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 14:06:30,822 - INFO - 127.0.0.1 - - [02/Apr/2026 14:06:30] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:06:52,265 - DEBUG - Starting new HTTP connection (1): www.bimabn.com:80
+2026-04-02 14:06:52,271 - DEBUG - Starting new HTTP connection (1): www.bimabn.com:80
+2026-04-02 14:06:52,611 - WARNING - Page analysis failed for http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/: HTTPConnectionPool(host='www.bimabn.com', port=80): Max retries exceeded with url: /1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/ (Caused by NameResolutionError("HTTPConnection(host='www.bimabn.com', port=80): Failed to resolve 'www.bimabn.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 14:06:52,611 - WARNING - Failed to count redirects for http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/: HTTPConnectionPool(host='www.bimabn.com', port=80): Max retries exceeded with url: /1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/ (Caused by NameResolutionError("HTTPConnection(host='www.bimabn.com', port=80): Failed to resolve 'www.bimabn.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 14:06:52,686 - WARNING - Whois failed for www.bimabn.com: No match for "BIMABN.COM".
+>>> Last update of whois database: 2026-04-02T08:36:45Z <<<
+
+NOTICE: The expiration date displayed in this record is the date the
+registrar's sponsorship of the domain name registration in the registry is
+currently set to expire. This date does not necessarily reflect the expiration
+date of the domain name registrant's agreement with the sponsoring
+registrar.  Users may consult the sponsoring registrar's Whois database to
+view the registrar's reported date of expiration for this registration.
+
+TERMS OF USE: You are not authorized to access or query our Whois
+database through the use of electronic processes that are high-volume and
+automated except as reasonably necessary to register domain names or
+modify existing registrations; the Data in VeriSign Global Registry
+Services' ("VeriSign") Whois database is provided by VeriSign for
+information purposes only, and to assist persons in obtaining information
+about or related to a domain name registration record. VeriSign does not
+guarantee its accuracy. By submitting a Whois query, you agree to abide
+by the following terms of use: You agree that you may use this Data only
+for lawful purposes and that under no circumstances will you use this Data
+to: (1) allow, enable, or otherwise support the transmission of mass
+unsolicited, commercial advertising or solicitations via e-mail, telephone,
+or facsimile; or (2) enable high volume, automated, electronic processes
+that apply to VeriSign (or its computer systems). The compilation,
+repackaging, dissemination or other use of this Data is expressly
+prohibited without the prior written consent of VeriSign. You agree not to
+use electronic processes that are automated and high-volume to access or
+query the Whois database except as reasonably necessary to register
+domain names or modify existing registrations. VeriSign reserves the right
+to restrict your access to the Whois database in its sole discretion to ensure
+operational stability.  VeriSign may restrict or terminate your access to the
+Whois database for failure to abide by these terms of use. VeriSign
+reserves the right to modify these terms at any time.
+
+The Registry database contains ONLY .COM, .NET, .EDU domains and
+Registrars.
+
+2026-04-02 14:06:52,688 - DEBUG - Features dictionary extracted for http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/
+2026-04-02 14:06:52,688 - WARNING - URL http://www.bimabn.com/1-configurazione-supporto-apple.store-contatta/c/Apple-id/3d465e25b47e6bc23ae55f5de40e1bb1/ has no open ports and is completely unreachable. Flagging as non-existent.
+2026-04-02 14:06:52,691 - INFO - 127.0.0.1 - - [02/Apr/2026 14:06:52] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 14:07:02,242 - DEBUG - Starting new HTTP connection (1): slashdot.org:80
+2026-04-02 14:07:02,246 - DEBUG - Starting new HTTP connection (1): slashdot.org:80
+2026-04-02 14:07:02,611 - DEBUG - http://slashdot.org:80 "GET /submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database HTTP/1.1" 301 0
+2026-04-02 14:07:02,611 - DEBUG - http://slashdot.org:80 "HEAD /submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database HTTP/1.1" 301 0
+2026-04-02 14:07:02,611 - DEBUG - Starting new HTTPS connection (1): slashdot.org:443
+2026-04-02 14:07:02,621 - DEBUG - Starting new HTTPS connection (1): slashdot.org:443
+2026-04-02 14:07:03,175 - DEBUG - https://slashdot.org:443 "GET /submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database HTTP/1.1" 403 None
+2026-04-02 14:07:03,175 - DEBUG - [http://slashdot.org/submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database] Server Response Code: 403
+2026-04-02 14:07:03,175 - DEBUG - [http://slashdot.org/submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database] Server Headers: {'Date': 'Thu, 02 Apr 2026 08:37:02 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Accept-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cf-Mitigated': 'challenge', 'Critical-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cross-Origin-Embedder-Policy': 'require-corp', 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Resource-Policy': 'same-origin', 'Origin-Agent-Cluster': '?1', 'Permissions-Policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'Referrer-Policy': 'same-origin', 'Server-Timing': 'chlray;desc="9e5e8260f8497f95"', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Vary': 'accept-encoding', 'Content-Encoding': 'gzip', 'Server': 'cloudflare', 'CF-RAY': '9e5e8260f8497f95-MAA', 'alt-svc': 'h3=":443"; ma=86400'}
+2026-04-02 14:07:03,678 - DEBUG - https://slashdot.org:443 "HEAD /submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database HTTP/1.1" 404 0
+2026-04-02 14:07:06,810 - DEBUG - Features dictionary extracted for http://slashdot.org/submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database
+2026-04-02 14:07:06,848 - INFO - URL: http://slashdot.org/submission/2916707/facebook-to-include-profile-photos-in-its-facial-recognition-database | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:07:06,848 - INFO - 127.0.0.1 - - [02/Apr/2026 14:07:06] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:07:15,099 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:07:15,101 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:07:16,042 - DEBUG - http://9779.info:80 "GET /%E6%A0%91%E5%8F%B6%E7%B2%98%E8%B4%B4%E7%94%BB/ HTTP/1.1" 200 None
+2026-04-02 14:07:16,042 - DEBUG - [http://9779.info/%E6%A0%91%E5%8F%B6%E7%B2%98%E8%B4%B4%E7%94%BB/] Server Response Code: 200
+2026-04-02 14:07:16,042 - DEBUG - [http://9779.info/%E6%A0%91%E5%8F%B6%E7%B2%98%E8%B4%B4%E7%94%BB/] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:37:14 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 14:07:16,059 - WARNING - Failed to count redirects for http://9779.info/%E6%A0%91%E5%8F%B6%E7%B2%98%E8%B4%B4%E7%94%BB/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 14:07:16,208 - DEBUG - Features dictionary extracted for http://9779.info/%E6%A0%91%E5%8F%B6%E7%B2%98%E8%B4%B4%E7%94%BB/
+2026-04-02 14:07:16,250 - INFO - URL: http://9779.info/%E6%A0%91%E5%8F%B6%E7%B2%98%E8%B4%B4%E7%94%BB/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:07:16,250 - INFO - 127.0.0.1 - - [02/Apr/2026 14:07:16] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:07:25,931 - DEBUG - Starting new HTTPS connection (1): www.ilovepdf.com:443
+2026-04-02 14:07:25,933 - DEBUG - Starting new HTTPS connection (1): www.ilovepdf.com:443
+2026-04-02 14:07:26,586 - DEBUG - https://www.ilovepdf.com:443 "HEAD /download/q68vh01gs9wwvvjhc1b3b52hnm9scs3ltymct56d70181wpdkqb72cAylr4nyygAfgyn4w7h708wbq6sczmxcwAht0jAj5gd8c02ntd67gg0khnrv8kA26l65lbd4p393ww4zr6t8h5xsbmqhyl027g9fs42gjsn8m1j9xv85vcqt04fkg3q/112 HTTP/1.1" 200 0
+2026-04-02 14:07:26,594 - DEBUG - https://www.ilovepdf.com:443 "GET /download/q68vh01gs9wwvvjhc1b3b52hnm9scs3ltymct56d70181wpdkqb72cAylr4nyygAfgyn4w7h708wbq6sczmxcwAht0jAj5gd8c02ntd67gg0khnrv8kA26l65lbd4p393ww4zr6t8h5xsbmqhyl027g9fs42gjsn8m1j9xv85vcqt04fkg3q/112 HTTP/1.1" 200 None
+2026-04-02 14:07:26,661 - DEBUG - [https://www.ilovepdf.com/download/q68vh01gs9wwvvjhc1b3b52hnm9scs3ltymct56d70181wpdkqb72cAylr4nyygAfgyn4w7h708wbq6sczmxcwAht0jAj5gd8c02ntd67gg0khnrv8kA26l65lbd4p393ww4zr6t8h5xsbmqhyl027g9fs42gjsn8m1j9xv85vcqt04fkg3q/112] Server Response Code: 200
+2026-04-02 14:07:26,661 - DEBUG - [https://www.ilovepdf.com/download/q68vh01gs9wwvvjhc1b3b52hnm9scs3ltymct56d70181wpdkqb72cAylr4nyygAfgyn4w7h708wbq6sczmxcwAht0jAj5gd8c02ntd67gg0khnrv8kA26l65lbd4p393ww4zr6t8h5xsbmqhyl027g9fs42gjsn8m1j9xv85vcqt04fkg3q/112] Server Headers: {'Date': 'Thu, 02 Apr 2026 08:37:25 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Server': 'cloudflare', 'Strict-Transport-Security': 'max-age=15552000; includeSubDomains; preload', 'Content-Encoding': 'gzip', 'cf-cache-status': 'DYNAMIC', 'vary': 'accept-encoding', 'Set-Cookie': 'last_page=d0d871453a5f7fd9dce313869139fc1282c838bb23ed01132b06aa39f1d596b4a%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22last_page%22%3Bi%3A1%3BN%3B%7D; path=/; HttpOnly, page=150fd8ddeef217168d4cac2024f3cdadf5410e35ece11d35ae088226a579a254a%3A2%3A%7Bi%3A0%3Bs%3A4%3A%22page%22%3Bi%3A1%3Bs%3A14%3A%22download%2Findex%22%3B%7D; path=/; HttpOnly, _csrf-ilovepdf=1dac0cba2a44c6a8755c46e2a2abb47337f575d5e1a457b87ac5d0ffcc62ae31a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-ilovepdf%22%3Bi%3A1%3Bs%3A32%3A%22qzKDrwgOAKJ4-YQrKUl5FGPDAGjurzh3%22%3B%7D; path=/; HttpOnly, __cf_bm=7mQj1vL69zNrYtPow_vUuL8mOJi2CuzHieCgF64L9Z4-1775119045.5205007-1.0.1.1-Zyb8Ty9_zmahCToAAC_r.Mk3LvV_nWRJ5NSWVmA9CfYPUbPdWN2SFdVOZqycBayV6NJk9I4H252PsRJPx_y6UCBhdmIujnYByhFcyh84SF6GB_UBOXscKmdVOW31f1dh; HttpOnly; Secure; Path=/; Domain=ilovepdf.com; Expires=Thu, 02 Apr 2026 09:07:25 GMT', 'CF-RAY': '9e5e82f278cc60c2-CCU'}
+2026-04-02 14:07:27,059 - DEBUG - Features dictionary extracted for https://www.ilovepdf.com/download/q68vh01gs9wwvvjhc1b3b52hnm9scs3ltymct56d70181wpdkqb72cAylr4nyygAfgyn4w7h708wbq6sczmxcwAht0jAj5gd8c02ntd67gg0khnrv8kA26l65lbd4p393ww4zr6t8h5xsbmqhyl027g9fs42gjsn8m1j9xv85vcqt04fkg3q/112
+2026-04-02 14:07:27,086 - INFO - URL: https://www.ilovepdf.com/download/q68vh01gs9wwvvjhc1b3b52hnm9scs3ltymct56d70181wpdkqb72cAylr4nyygAfgyn4w7h708wbq6sczmxcwAht0jAj5gd8c02ntd67gg0khnrv8kA26l65lbd4p393ww4zr6t8h5xsbmqhyl027g9fs42gjsn8m1j9xv85vcqt04fkg3q/112 | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:07:27,086 - INFO - 127.0.0.1 - - [02/Apr/2026 14:07:27] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:07:40,770 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 14:07:40,771 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 14:07:41,560 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:07:41,582 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:07:41,586 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 14:07:41,586 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 14:07:41,628 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 14:07:41,650 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:07:41,650 - INFO - 127.0.0.1 - - [02/Apr/2026 14:07:41] "POST /predict HTTP/1.1" 200 -
