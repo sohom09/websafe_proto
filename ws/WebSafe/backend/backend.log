@@ -1244,3 +1244,602 @@
 2026-04-02 01:35:39,020 - DEBUG - Features dictionary extracted for https://www.iemcrp.com
 2026-04-02 01:35:39,107 - INFO - URL: https://www.iemcrp.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
 2026-04-02 01:35:39,110 - INFO - 127.0.0.1 - - [02/Apr/2026 01:35:39] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:41:52,700 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:41:59,850 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:42:00,936 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.4:5000
+2026-04-02 11:42:00,942 - INFO - [33mPress CTRL+C to quit[0m
+2026-04-02 11:42:00,950 - INFO -  * Restarting with stat
+2026-04-02 11:42:01,650 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:42:03,020 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:42:03,025 - WARNING -  * Debugger is active!
+2026-04-02 11:42:03,047 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 11:42:18,781 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:42:18,781 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:42:20,696 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:42:20,710 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:42:20,711 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 11:42:20,711 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 11:42:20,771 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 11:42:20,855 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:42:20,855 - INFO - 127.0.0.1 - - [02/Apr/2026 11:42:20] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:42:32,774 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:42:32,779 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:42:34,472 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:42:34,472 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 11:42:34,472 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 11:42:34,518 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:42:34,551 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 11:42:34,636 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:42:34,636 - INFO - 127.0.0.1 - - [02/Apr/2026 11:42:34] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:42:46,119 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 11:42:46,124 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 11:42:46,834 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:42:46,840 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 11:42:46,840 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 11:42:46,850 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 11:42:47,700 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:42:47,711 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 11:42:47,737 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 11:42:47,751 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 11:42:50,086 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:42:50,103 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:42:50,420 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 11:42:50,421 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 06:12:48 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 06:12:48 GMT; Path=/, session_id=1V_KS3SYEKTvNkPWp92MZc0tGaXGraVh7mEfrNX_Bw1zUjzMc5vYYsBgmHV7V_K3XCtyPZY5y3Aq1gK_ooFG; Expires=Fri, 02 Apr 2027 06:12:48 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 11:42:50,637 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 11:42:50,704 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 11:42:50,704 - INFO - 127.0.0.1 - - [02/Apr/2026 11:42:50] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:43:07,587 - DEBUG - Starting new HTTP connection (1): qaklo.com:80
+2026-04-02 11:43:07,587 - DEBUG - Starting new HTTP connection (1): qaklo.com:80
+2026-04-02 11:43:08,340 - DEBUG - http://qaklo.com:80 "GET / HTTP/1.1" 404 None
+2026-04-02 11:43:08,340 - DEBUG - [http://qaklo.com] Server Response Code: 404
+2026-04-02 11:43:08,340 - DEBUG - [http://qaklo.com] Server Headers: {'server': 'nginx', 'date': 'Thu, 02 Apr 2026 06:13:07 GMT', 'content-type': 'text/html; charset=UTF-8', 'via': '1.1 google', 'Transfer-Encoding': 'chunked'}
+2026-04-02 11:43:08,370 - DEBUG - http://qaklo.com:80 "HEAD / HTTP/1.1" 404 0
+2026-04-02 11:43:08,637 - DEBUG - Features dictionary extracted for http://qaklo.com
+2026-04-02 11:43:08,704 - INFO - URL: http://qaklo.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:43:08,704 - INFO - 127.0.0.1 - - [02/Apr/2026 11:43:08] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:43:15,758 - INFO - 127.0.0.1 - - [02/Apr/2026 11:43:15] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 11:44:46,137 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 11:44:46,352 - INFO -  * Restarting with stat
+2026-04-02 11:44:47,302 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:44:48,735 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:44:48,735 - WARNING -  * Debugger is active!
+2026-04-02 11:44:48,757 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 11:45:42,124 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:45:42,124 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:45:43,721 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:45:43,754 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:45:43,754 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 11:45:43,754 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 11:45:43,845 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 11:45:43,920 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:45:43,923 - INFO - 127.0.0.1 - - [02/Apr/2026 11:45:43] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:47:28,807 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 11:47:29,282 - INFO -  * Restarting with stat
+2026-04-02 11:47:30,550 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:47:32,666 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:47:32,749 - WARNING -  * Debugger is active!
+2026-04-02 11:47:32,800 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 11:47:44,657 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:47:44,657 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:47:46,405 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:47:46,416 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:47:46,420 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 11:47:46,421 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 11:47:46,471 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 11:47:46,549 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:47:46,551 - INFO - 127.0.0.1 - - [02/Apr/2026 11:47:46] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:48:03,198 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 11:48:03,204 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 11:48:04,059 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:48:04,068 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 11:48:04,073 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 11:48:04,074 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 11:48:04,911 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 11:48:04,913 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:48:04,923 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 11:48:04,936 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 11:48:07,137 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:48:07,200 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:48:07,453 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 11:48:07,454 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 06:18:05 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 06:18:05 GMT; Path=/, session_id=EdgIZsRQGZrg3MkzP6BqVovkMxg0QRIqatEvf9o6vU6Rvpd9hSZ1Jw1vhiQXyHpPS2cAiDzHVANy5VC3nLnW; Expires=Fri, 02 Apr 2027 06:18:05 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 11:48:07,538 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 11:48:07,636 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:48:07,639 - INFO - 127.0.0.1 - - [02/Apr/2026 11:48:07] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:48:31,971 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 11:48:31,976 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 11:48:32,663 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 11:48:32,810 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:48:32,821 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 11:48:32,821 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 11:48:33,629 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 11:48:33,640 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 11:48:33,640 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:48:33,663 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 11:48:35,855 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:48:36,000 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:48:36,158 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 11:48:36,158 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 06:18:34 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 06:12:48 GMT; Path=/, session_id=1V_KS3SYEKTvNkPWp92MZc0tGaXGraVh7mEfrNX_Bw1zUjzMc5vYYsBgmHV7V_K3XCtyPZY5y3Aq1gK_ooFG; Expires=Fri, 02 Apr 2027 06:12:48 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 06:18:34 GMT; Path=/, session_id=zAm2GB_bSSzTuuy6F7Ph7o4EVSdP5JSzIPX42-0z2aes_OlLNRcLeVZLLNjTrUSLnkaKrno7qLwVMFIC3IM5; Expires=Fri, 02 Apr 2027 06:18:34 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 11:48:36,272 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 11:48:36,338 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:48:36,338 - INFO - 127.0.0.1 - - [02/Apr/2026 11:48:36] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:53:59,931 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 11:54:00,497 - INFO -  * Restarting with stat
+2026-04-02 11:54:02,441 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:54:04,610 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:54:04,625 - WARNING -  * Debugger is active!
+2026-04-02 11:54:04,636 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 11:57:56,058 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:57:56,060 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:57:56,886 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:57:56,888 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 11:57:56,888 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 11:57:56,905 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:57:57,404 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 11:57:57,454 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:57:57,455 - INFO - 127.0.0.1 - - [02/Apr/2026 11:57:57] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:58:24,508 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 11:58:24,508 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 11:58:24,873 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 11:58:24,873 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 11:58:24,873 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 11:58:24,873 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 11:58:26,239 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:58:26,243 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:58:26,243 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 11:58:26,246 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 06:28:25 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 11:58:26,272 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 11:58:26,342 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:58:26,342 - INFO - 127.0.0.1 - - [02/Apr/2026 11:58:26] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:58:32,859 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 11:58:32,859 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 11:58:34,138 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:58:34,138 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:58:34,138 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 11:58:34,138 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 06:28:33 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 11:58:34,171 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 11:58:34,223 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:58:34,223 - INFO - 127.0.0.1 - - [02/Apr/2026 11:58:34] "POST /predict HTTP/1.1" 200 -
+2026-04-02 11:58:46,612 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 11:58:46,867 - INFO -  * Restarting with stat
+2026-04-02 11:58:47,887 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:58:50,572 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:58:50,607 - WARNING -  * Debugger is active!
+2026-04-02 11:58:50,629 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 11:59:00,714 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 11:59:00,937 - INFO -  * Restarting with stat
+2026-04-02 11:59:02,039 - INFO - Starting WebSafe Detection API...
+2026-04-02 11:59:04,323 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 11:59:04,333 - WARNING -  * Debugger is active!
+2026-04-02 11:59:04,344 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 11:59:11,041 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:59:11,041 - DEBUG - Starting new HTTPS connection (1): ispatsangha.org:443
+2026-04-02 11:59:12,704 - DEBUG - https://ispatsangha.org:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 11:59:12,737 - DEBUG - https://ispatsangha.org:443 "GET / HTTP/1.1" 200 None
+2026-04-02 11:59:12,738 - DEBUG - [https://ispatsangha.org/] Server Response Code: 200
+2026-04-02 11:59:12,738 - DEBUG - [https://ispatsangha.org/] Server Headers: {'Date': 'Wed, 04 Feb 2026 06:11:02 GMT', 'Server': 'Apache', 'Cache-Control': 'must-revalidate, no-cache, private', 'X-Drupal-Dynamic-Cache': 'HIT', 'Content-language': 'en', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'Expires': 'Sun, 19 Nov 1978 05:00:00 GMT', 'X-Generator': 'Drupal 10 (https://www.drupal.org)', 'X-Drupal-Cache': 'HIT', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Transfer-Encoding': 'chunked', 'Content-Type': 'text/html; charset=UTF-8'}
+2026-04-02 11:59:12,800 - DEBUG - Features dictionary extracted for https://ispatsangha.org/
+2026-04-02 11:59:12,854 - INFO - URL: https://ispatsangha.org/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 11:59:12,854 - INFO - 127.0.0.1 - - [02/Apr/2026 11:59:12] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:40:25,550 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:40:25,560 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:40:25,841 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:40:25,843 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:40:25,858 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:40:25,858 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:40:26,724 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:40:26,756 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:40:26,760 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:40:26,760 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:10:25 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:40:26,800 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:40:26,841 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:40:26,850 - INFO - 127.0.0.1 - - [02/Apr/2026 13:40:26] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:40:31,150 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:40:31,150 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:40:32,004 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:40:32,013 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:40:32,017 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 13:40:32,019 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:10:31 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:40:32,080 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 13:40:32,144 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:40:32,146 - INFO - 127.0.0.1 - - [02/Apr/2026 13:40:32] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:40:59,260 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 13:40:59,536 - INFO -  * Restarting with stat
+2026-04-02 13:41:00,709 - INFO - Starting WebSafe Detection API...
+2026-04-02 13:41:02,408 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:41:02,426 - WARNING -  * Debugger is active!
+2026-04-02 13:41:02,436 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 13:41:50,900 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:41:50,900 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:41:51,982 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 13:41:51,990 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:41:51,990 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:41:52,000 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:41:53,007 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 13:41:53,007 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:41:53,007 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:41:53,023 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:41:54,822 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:41:54,836 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:41:55,123 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:41:55,123 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:11:53 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:11:53 GMT; Path=/, session_id=VtqTEiT5unAxr_GnWFNEXzOfGhiAdPU2z0ZuDpSsbIHt7Y5xfTb_9ntLynaUPYxR7fIDCg2HYzQ3R1iYCwkb; Expires=Fri, 02 Apr 2027 08:11:53 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:41:55,190 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 13:41:55,240 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 13:41:55,250 - INFO - 127.0.0.1 - - [02/Apr/2026 13:41:55] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:42:00,142 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:42:00,144 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:42:00,836 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 13:42:00,840 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:42:00,847 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:42:00,850 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:42:01,636 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:42:01,640 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:42:01,658 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 13:42:01,658 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:42:03,500 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:42:03,511 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:42:03,809 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:42:03,809 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:12:02 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:11:53 GMT; Path=/, session_id=VtqTEiT5unAxr_GnWFNEXzOfGhiAdPU2z0ZuDpSsbIHt7Y5xfTb_9ntLynaUPYxR7fIDCg2HYzQ3R1iYCwkb; Expires=Fri, 02 Apr 2027 08:11:53 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:12:02 GMT; Path=/, session_id=TKHxE_Yf6BcX9Z7qT39e8y_s3RfZCD5aHs6oUTuaM3SzcD1T6iVWcJW3ZLiX7hmhV_KTrIsuQuhTUj4FUBP5; Expires=Fri, 02 Apr 2027 08:12:02 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:42:04,001 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 13:42:04,068 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 13:42:04,071 - INFO - 127.0.0.1 - - [02/Apr/2026 13:42:04] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:42:08,101 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 13:42:08,486 - INFO -  * Restarting with stat
+2026-04-02 13:42:09,100 - INFO - Starting WebSafe Detection API...
+2026-04-02 13:42:10,188 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:42:10,200 - WARNING -  * Debugger is active!
+2026-04-02 13:42:10,210 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 13:42:11,223 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 13:42:11,610 - INFO -  * Restarting with stat
+2026-04-02 13:42:12,272 - INFO - Starting WebSafe Detection API...
+2026-04-02 13:42:13,339 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:42:13,358 - WARNING -  * Debugger is active!
+2026-04-02 13:42:13,375 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 13:43:12,811 - DEBUG - Starting new HTTPS connection (1): qwe.lok:443
+2026-04-02 13:43:12,811 - DEBUG - Starting new HTTPS connection (1): qwe.lok:443
+2026-04-02 13:43:12,959 - WARNING - Failed to count redirects for https://qwe.lok: HTTPSConnectionPool(host='qwe.lok', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='qwe.lok', port=443): Failed to resolve 'qwe.lok' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 13:43:12,959 - WARNING - Page analysis failed for https://qwe.lok: HTTPSConnectionPool(host='qwe.lok', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='qwe.lok', port=443): Failed to resolve 'qwe.lok' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 13:43:12,959 - DEBUG - Features dictionary extracted for https://qwe.lok
+2026-04-02 13:43:12,959 - WARNING - URL https://qwe.lok has no open ports and is completely unreachable. Flagging as non-existent.
+2026-04-02 13:43:12,959 - INFO - 127.0.0.1 - - [02/Apr/2026 13:43:12] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 13:43:24,848 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:43:24,851 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:43:26,590 - DEBUG - https://abcd1234.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:43:26,590 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:43:26,622 - DEBUG - https://abcd1234.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-04-02 13:43:26,623 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:43:28,793 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:43:28,836 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:43:29,157 - DEBUG - [https://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:43:29,157 - DEBUG - [https://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:13:27 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 07:41:22 GMT; Path=/, session_id=uGot_L9K5aJhuyfnd2TM3TmhMGXRckRweQgyTdDcAetwZ-MZkiyCVsTrcJnx81qFkF7oDnI0MdJLKWEiyul5; Expires=Fri, 02 Apr 2027 07:41:22 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:13:27 GMT; Path=/, session_id=a_LA5jYjobN1PyTHF305cw-7bqiJkXKesDyqYrdVDM0p_kdRiCh1DrrpxXoxAtogwqO9WI0r_hJdJUymZth4; Expires=Fri, 02 Apr 2027 08:13:27 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:43:29,236 - DEBUG - Features dictionary extracted for https://abcd1234.xyz.com
+2026-04-02 13:43:29,313 - INFO - URL: https://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:43:29,313 - INFO - 127.0.0.1 - - [02/Apr/2026 13:43:29] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:43:34,656 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:43:34,657 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:43:36,358 - DEBUG - https://abcd1234.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:43:36,358 - DEBUG - https://abcd1234.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-04-02 13:43:36,371 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:43:36,373 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:43:38,157 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:43:38,182 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:43:38,473 - DEBUG - [https://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:43:38,473 - DEBUG - [https://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:13:37 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:11:53 GMT; Path=/, session_id=VtqTEiT5unAxr_GnWFNEXzOfGhiAdPU2z0ZuDpSsbIHt7Y5xfTb_9ntLynaUPYxR7fIDCg2HYzQ3R1iYCwkb; Expires=Fri, 02 Apr 2027 08:11:53 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:13:37 GMT; Path=/, session_id=tRHOK2uZvax6mSFs7G4ZeLWgeLPHm-RaEHTniv4CmKlSuVc-3Lgtogn54xmxv9AGdZ9wH_YWzQGUT4b0jUhK; Expires=Fri, 02 Apr 2027 08:13:37 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:43:38,641 - DEBUG - Features dictionary extracted for https://abcd1234.xyz.com
+2026-04-02 13:43:38,710 - INFO - URL: https://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:43:38,710 - INFO - 127.0.0.1 - - [02/Apr/2026 13:43:38] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:43:40,106 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 13:43:40,426 - INFO -  * Restarting with stat
+2026-04-02 13:43:41,389 - INFO - Starting WebSafe Detection API...
+2026-04-02 13:43:42,575 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:43:42,590 - WARNING -  * Debugger is active!
+2026-04-02 13:43:42,600 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 13:43:45,171 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:43:45,175 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:43:45,811 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:43:45,821 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:43:45,858 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 13:43:45,858 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:43:46,541 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 13:43:46,541 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:43:46,558 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:43:46,558 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:43:47,841 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:43:47,886 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:43:48,200 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:43:48,200 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:13:46 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Path=/, session_id=2W3c5MVfQz6I4ZPQJ6Ecf9sCmuWQRhu0tG70vBcvdGNuWpN4EEHr_WjQ-l-5U9NjysSK_IpMp3PvG6em7g6F; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:43:48,240 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 13:43:48,274 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 13:43:48,274 - INFO - 127.0.0.1 - - [02/Apr/2026 13:43:48] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:44:05,100 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:44:05,100 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:44:07,857 - DEBUG - https://abcd1234.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:44:07,857 - DEBUG - https://abcd1234.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-04-02 13:44:07,866 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:44:07,866 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:44:09,700 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:44:09,710 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:44:11,086 - DEBUG - [https://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:44:11,086 - DEBUG - [https://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:14:08 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:14:08 GMT; Path=/, session_id=DocMZYG9nIwK7XK5Jywf5dqbcr8RkGDJMmP_JQGHWxmQcjkMr1Py_rblQuCjVdXuzs4TyS1N_4cJWmDG4_jj; Expires=Fri, 02 Apr 2027 08:14:08 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:44:11,164 - DEBUG - Features dictionary extracted for https://abcd1234.xyz.com
+2026-04-02 13:44:11,239 - INFO - URL: https://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:44:11,240 - INFO - 127.0.0.1 - - [02/Apr/2026 13:44:11] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:44:21,100 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:44:21,103 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:44:21,800 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:44:21,800 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 13:44:21,807 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:44:21,807 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:44:22,474 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 13:44:22,474 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:44:22,486 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:44:22,490 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:44:24,041 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:44:24,108 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:44:24,350 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:44:24,350 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:14:22 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Path=/, session_id=2W3c5MVfQz6I4ZPQJ6Ecf9sCmuWQRhu0tG70vBcvdGNuWpN4EEHr_WjQ-l-5U9NjysSK_IpMp3PvG6em7g6F; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:14:22 GMT; Path=/, session_id=A-rjryZzKlmXceVvxigOZTMXOJwhjhUoTaX3-k6ejRMbPDBg3_gmE02jUhC8VE7HdJuHoHY3T15zJvFJIpQu; Expires=Fri, 02 Apr 2027 08:14:22 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:44:24,407 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 13:44:24,466 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.64, 0.36]
+2026-04-02 13:44:24,474 - INFO - 127.0.0.1 - - [02/Apr/2026 13:44:24] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:45:52,160 - DEBUG - Starting new HTTPS connection (1): baseball-reference.com:443
+2026-04-02 13:45:52,160 - DEBUG - Starting new HTTPS connection (1): baseball-reference.com:443
+2026-04-02 13:45:53,073 - DEBUG - https://baseball-reference.com:443 "GET /players/h/harrige01.shtml HTTP/1.1" 403 None
+2026-04-02 13:45:53,086 - DEBUG - [https://baseball-reference.com/players/h/harrige01.shtml] Server Response Code: 403
+2026-04-02 13:45:53,086 - DEBUG - https://baseball-reference.com:443 "HEAD /players/h/harrige01.shtml HTTP/1.1" 403 0
+2026-04-02 13:45:53,086 - DEBUG - [https://baseball-reference.com/players/h/harrige01.shtml] Server Headers: {'Date': 'Thu, 02 Apr 2026 08:15:52 GMT', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Connection': 'close', 'Accept-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cf-Mitigated': 'challenge', 'Critical-Ch': 'Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA', 'Cross-Origin-Embedder-Policy': 'require-corp', 'Cross-Origin-Opener-Policy': 'same-origin', 'Cross-Origin-Resource-Policy': 'same-origin', 'Origin-Agent-Cluster': '?1', 'Permissions-Policy': 'accelerometer=(),browsing-topics=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),interest-cohort=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=()', 'Referrer-Policy': 'same-origin', 'Server-Timing': 'chlray;desc="9e5e635e8c094f8f", cfEdge;dur=3,cfOrigin;dur=0', 'X-Content-Type-Options': 'nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'set-cookie': '__cf_bm=GfpLEKUkj7kxgDOWCXeo6ViDHCnV875GsvSyiW3liuU-1775117752.0902035-1.0.1.1-JS9MMS9sL8LbGf2WHw3H5BaA_ovvNFydRWPYlfaxAmK6Td1L6VHPjHbWGXl9WxhNeO6.N.gTO3Rz2Ceoy3Y0y9HvVRTCsoyHz3iCflI1gY5LcOtHUIIa_T4.bJwuO8y3; HttpOnly; Secure; Path=/; Domain=baseball-reference.com; Expires=Thu, 02 Apr 2026 08:45:52 GMT', 'Content-Encoding': 'gzip', 'Server': 'cloudflare', 'CF-RAY': '9e5e635e8c094f8f-CCU'}
+2026-04-02 13:45:54,374 - DEBUG - Features dictionary extracted for https://baseball-reference.com/players/h/harrige01.shtml
+2026-04-02 13:45:54,415 - INFO - URL: https://baseball-reference.com/players/h/harrige01.shtml | Raw prediction: 1 | Probabilities: [0.35, 0.65]
+2026-04-02 13:45:54,415 - INFO - 127.0.0.1 - - [02/Apr/2026 13:45:54] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:46:16,523 - DEBUG - Starting new HTTP connection (1): www.824555.com:80
+2026-04-02 13:46:16,526 - DEBUG - Starting new HTTP connection (1): www.824555.com:80
+2026-04-02 13:46:17,657 - WARNING - Page analysis failed for http://www.824555.com/app/member/SportOption.php?uid=guest&langx=gb: HTTPConnectionPool(host='www.824555.com', port=80): Max retries exceeded with url: /app/member/SportOption.php?uid=guest&langx=gb (Caused by NameResolutionError("HTTPConnection(host='www.824555.com', port=80): Failed to resolve 'www.824555.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 13:46:17,657 - WARNING - Failed to count redirects for http://www.824555.com/app/member/SportOption.php?uid=guest&langx=gb: HTTPConnectionPool(host='www.824555.com', port=80): Max retries exceeded with url: /app/member/SportOption.php?uid=guest&langx=gb (Caused by NameResolutionError("HTTPConnection(host='www.824555.com', port=80): Failed to resolve 'www.824555.com' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 13:46:18,057 - DEBUG - Features dictionary extracted for http://www.824555.com/app/member/SportOption.php?uid=guest&langx=gb
+2026-04-02 13:46:18,057 - WARNING - URL http://www.824555.com/app/member/SportOption.php?uid=guest&langx=gb has no open ports and is completely unreachable. Flagging as non-existent.
+2026-04-02 13:46:18,057 - INFO - 127.0.0.1 - - [02/Apr/2026 13:46:18] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 13:46:40,991 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 13:46:40,993 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 13:46:41,957 - DEBUG - http://9779.info:80 "GET /%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ HTTP/1.1" 200 None
+2026-04-02 13:46:41,957 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Response Code: 200
+2026-04-02 13:46:41,957 - WARNING - Failed to count redirects for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 13:46:41,957 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:16:40 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 13:46:42,374 - DEBUG - Features dictionary extracted for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/
+2026-04-02 13:46:42,419 - INFO - URL: http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:46:42,419 - INFO - 127.0.0.1 - - [02/Apr/2026 13:46:42] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:48:20,708 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 13:48:21,079 - INFO -  * Restarting with stat
+2026-04-02 13:48:21,661 - INFO - Starting WebSafe Detection API...
+2026-04-02 13:48:22,806 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:48:22,810 - WARNING -  * Debugger is active!
+2026-04-02 13:48:22,822 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 13:52:40,479 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 13:52:40,479 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 13:52:41,473 - DEBUG - http://9779.info:80 "GET /%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ HTTP/1.1" 200 None
+2026-04-02 13:52:41,475 - WARNING - Failed to count redirects for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 13:52:41,476 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Response Code: 200
+2026-04-02 13:52:41,477 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:22:40 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 13:52:41,627 - DEBUG - Features dictionary extracted for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/
+2026-04-02 13:52:41,692 - INFO - URL: http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:52:41,692 - INFO - 127.0.0.1 - - [02/Apr/2026 13:52:41] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:52:58,936 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:52:58,944 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz.com:80
+2026-04-02 13:52:59,822 - DEBUG - http://abcd1234.xyz.com:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:52:59,825 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:52:59,825 - DEBUG - http://abcd1234.xyz.com:80 "GET / HTTP/1.1" 301 None
+2026-04-02 13:52:59,835 - DEBUG - Starting new HTTP connection (1): abcd1234.xyz:80
+2026-04-02 13:53:01,794 - DEBUG - http://abcd1234.xyz:80 "GET / HTTP/1.1" 301 178
+2026-04-02 13:53:01,803 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:53:01,826 - DEBUG - http://abcd1234.xyz:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:53:01,828 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:53:03,876 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:53:03,876 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:53:04,191 - DEBUG - [http://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:53:04,200 - DEBUG - [http://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:23:02 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Path=/, session_id=2W3c5MVfQz6I4ZPQJ6Ecf9sCmuWQRhu0tG70vBcvdGNuWpN4EEHr_WjQ-l-5U9NjysSK_IpMp3PvG6em7g6F; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:23:02 GMT; Path=/, session_id=SKL-D7UppQ02x-359LTVqGUoJfF8X34LPVfj7Jgi9nLihA1AfvPhSTvJa3ld6zrOmrqj0NwuZ5FWIVDM5CCy; Expires=Fri, 02 Apr 2027 08:23:02 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:53:04,260 - DEBUG - Features dictionary extracted for http://abcd1234.xyz.com
+2026-04-02 13:53:04,310 - INFO - URL: http://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:53:04,310 - INFO - 127.0.0.1 - - [02/Apr/2026 13:53:04] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:53:11,436 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:53:11,436 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz.com:443
+2026-04-02 13:53:12,992 - DEBUG - https://abcd1234.xyz.com:443 "GET / HTTP/1.1" 301 None
+2026-04-02 13:53:12,992 - DEBUG - https://abcd1234.xyz.com:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:53:13,000 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:53:13,000 - DEBUG - Starting new HTTPS connection (1): abcd1234.xyz:443
+2026-04-02 13:53:14,791 - DEBUG - https://abcd1234.xyz:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:53:14,840 - DEBUG - https://abcd1234.xyz:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:53:15,110 - DEBUG - [https://abcd1234.xyz.com] Server Response Code: 200
+2026-04-02 13:53:15,110 - DEBUG - [https://abcd1234.xyz.com] Server Headers: {'Server': 'nginx/1.24.0 (Ubuntu)', 'Date': 'Thu, 02 Apr 2026 08:23:13 GMT', 'Content-Type': 'text/html; charset=utf-8', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Set-Cookie': 'frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Path=/, session_id=2W3c5MVfQz6I4ZPQJ6Ecf9sCmuWQRhu0tG70vBcvdGNuWpN4EEHr_WjQ-l-5U9NjysSK_IpMp3PvG6em7g6F; Expires=Fri, 02 Apr 2027 08:13:46 GMT; Max-Age=604800; HttpOnly; Path=/, frontend_lang=en_US; Expires=Fri, 02 Apr 2027 08:23:13 GMT; Path=/, session_id=vwfBokmfn4-8Rxe7sKCfpHczBdrXrIMHfGivvhll5qP-HRnn1g74nEwF8acMavgILNElGM7pbvLybwd4Jhko; Expires=Fri, 02 Apr 2027 08:23:13 GMT; Max-Age=604800; HttpOnly; Path=/', 'X-Content-Type-Options': 'nosniff, nosniff', 'X-Frame-Options': 'SAMEORIGIN', 'X-XSS-Protection': '1; mode=block', 'Content-Encoding': 'gzip'}
+2026-04-02 13:53:15,350 - DEBUG - Features dictionary extracted for https://abcd1234.xyz.com
+2026-04-02 13:53:15,426 - INFO - URL: https://abcd1234.xyz.com | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:53:15,426 - INFO - 127.0.0.1 - - [02/Apr/2026 13:53:15] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:53:21,892 - DEBUG - Starting new HTTPS connection (1): abcd1234.qwe:443
+2026-04-02 13:53:21,894 - DEBUG - Starting new HTTPS connection (1): abcd1234.qwe:443
+2026-04-02 13:53:21,994 - WARNING - Failed to count redirects for https://abcd1234.qwe: HTTPSConnectionPool(host='abcd1234.qwe', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='abcd1234.qwe', port=443): Failed to resolve 'abcd1234.qwe' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 13:53:21,994 - WARNING - Page analysis failed for https://abcd1234.qwe: HTTPSConnectionPool(host='abcd1234.qwe', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("HTTPSConnection(host='abcd1234.qwe', port=443): Failed to resolve 'abcd1234.qwe' ([Errno 11001] getaddrinfo failed)"))
+2026-04-02 13:53:21,994 - DEBUG - Features dictionary extracted for https://abcd1234.qwe
+2026-04-02 13:53:21,994 - WARNING - URL https://abcd1234.qwe has no open ports and is completely unreachable. Flagging as non-existent.
+2026-04-02 13:53:22,002 - INFO - 127.0.0.1 - - [02/Apr/2026 13:53:22] "[31m[1mPOST /predict HTTP/1.1[0m" 400 -
+2026-04-02 13:53:39,378 - DEBUG - Starting new HTTPS connection (1): pornhub.org:443
+2026-04-02 13:53:39,378 - DEBUG - Starting new HTTPS connection (1): pornhub.org:443
+2026-04-02 13:53:40,807 - DEBUG - https://pornhub.org:443 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:53:40,807 - DEBUG - Starting new HTTPS connection (1): www.pornhub.org:443
+2026-04-02 13:53:40,822 - DEBUG - https://pornhub.org:443 "GET / HTTP/1.1" 301 166
+2026-04-02 13:53:40,824 - DEBUG - Starting new HTTPS connection (1): www.pornhub.org:443
+2026-04-02 13:53:42,390 - WARNING - Failed to count redirects for https://pornhub.org: HTTPSConnectionPool(host='www.pornhub.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.org', port=443) at 0x15ea1d723d0>, 'Connection to www.pornhub.org timed out. (connect timeout=1.5)'))
+2026-04-02 13:53:42,884 - WARNING - Page analysis failed for https://pornhub.org: HTTPSConnectionPool(host='www.pornhub.org', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='www.pornhub.org', port=443) at 0x15ea1d70c10>, 'Connection to www.pornhub.org timed out. (connect timeout=2.0)'))
+2026-04-02 13:53:48,044 - DEBUG - Features dictionary extracted for https://pornhub.org
+2026-04-02 13:53:48,127 - INFO - URL: https://pornhub.org | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:53:48,135 - INFO - 127.0.0.1 - - [02/Apr/2026 13:53:48] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:53:54,061 - DEBUG - Starting new HTTPS connection (1): pornhub.in:443
+2026-04-02 13:53:54,061 - DEBUG - Starting new HTTPS connection (1): pornhub.in:443
+2026-04-02 13:53:55,874 - DEBUG - https://pornhub.in:443 "GET / HTTP/1.1" 436 0
+2026-04-02 13:53:55,874 - DEBUG - [https://pornhub.in] Server Response Code: 436
+2026-04-02 13:53:55,874 - DEBUG - [https://pornhub.in] Server Headers: {'Content-Length': '0', 'Date': 'Thu, 02 Apr 2026 08:23:54 GMT', 'Server': 'Parking/1.0'}
+2026-04-02 13:53:55,886 - DEBUG - https://pornhub.in:443 "HEAD / HTTP/1.1" 405 0
+2026-04-02 13:53:55,889 - DEBUG - Features dictionary extracted for https://pornhub.in
+2026-04-02 13:53:55,946 - INFO - URL: https://pornhub.in | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:53:55,950 - INFO - 127.0.0.1 - - [02/Apr/2026 13:53:55] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:54:04,027 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:04,028 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:04,908 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:54:04,910 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:54:04,910 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 13:54:04,910 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:24:03 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:54:04,979 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 13:54:05,062 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:54:05,066 - INFO - 127.0.0.1 - - [02/Apr/2026 13:54:05] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:54:06,280 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:06,280 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:07,208 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:54:07,219 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 13:54:07,219 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:24:06 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:54:07,257 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:54:07,274 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 13:54:07,336 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:54:07,339 - INFO - 127.0.0.1 - - [02/Apr/2026 13:54:07] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:54:08,126 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:08,126 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:08,926 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:54:08,927 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 5393
+2026-04-02 13:54:08,928 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 13:54:08,928 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Content-Length': '5393', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:24:07 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:54:08,981 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 13:54:09,071 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:54:09,075 - INFO - 127.0.0.1 - - [02/Apr/2026 13:54:09] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:54:11,624 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:54:11,631 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:54:11,825 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:54:11,825 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:54:11,826 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:11,826 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:54:12,726 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:54:12,726 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:54:12,736 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:54:12,736 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:24:11 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:54:12,785 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:54:12,859 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:54:12,859 - INFO - 127.0.0.1 - - [02/Apr/2026 13:54:12] "POST /predict HTTP/1.1" 200 -
+2026-04-02 13:56:21,624 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:56:21,636 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:56:21,636 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:56:21,792 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:56:21,792 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:56:21,792 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:56:21,800 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:56:22,307 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:56:22,307 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:56:22,307 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:56:22,307 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:26:21 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:56:22,324 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:56:22,348 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:57:35,150 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:57:35,157 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:57:35,336 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:57:35,341 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:57:35,350 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:57:35,358 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:57:35,967 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:57:35,975 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:57:35,977 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:57:35,980 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:27:35 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:57:36,360 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:57:57,343 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:57:57,343 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:57:57,622 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:57:57,622 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:57:57,626 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:57:57,626 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:57:58,254 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:57:58,254 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:57:58,254 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:27:57 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:57:58,275 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:57:58,276 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:58:36,108 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:58:36,134 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:58:36,136 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:58:36,300 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:58:36,312 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:58:36,322 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:58:36,322 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:58:36,913 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:58:36,921 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:58:36,922 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:58:36,928 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:28:35 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:58:37,271 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:58:37,300 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 13:59:10,550 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 13:59:10,821 - INFO -  * Restarting with stat
+2026-04-02 13:59:11,443 - INFO - Starting WebSafe Detection API...
+2026-04-02 13:59:12,625 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:59:12,648 - WARNING -  * Debugger is active!
+2026-04-02 13:59:12,658 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 13:59:38,800 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 13:59:38,821 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:59:38,827 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 13:59:38,991 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 13:59:38,991 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:59:39,013 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 13:59:39,018 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 13:59:39,552 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 13:59:39,552 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 13:59:39,552 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 13:59:39,552 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:29:38 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 13:59:40,178 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 13:59:40,189 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:00:39,700 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 14:00:39,710 - DEBUG - Starting new HTTP connection (1): techplus.fun:80
+2026-04-02 14:00:39,911 - DEBUG - http://techplus.fun:80 "GET / HTTP/1.1" 301 795
+2026-04-02 14:00:39,911 - DEBUG - http://techplus.fun:80 "HEAD / HTTP/1.1" 301 0
+2026-04-02 14:00:39,922 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:00:39,922 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:00:40,892 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:00:40,892 - DEBUG - [http://techplus.fun] Server Response Code: 200
+2026-04-02 14:00:40,892 - DEBUG - [http://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:30:39 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 14:00:40,924 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:00:40,963 - DEBUG - Features dictionary extracted for http://techplus.fun
+2026-04-02 14:00:41,036 - INFO - URL: http://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:00:41,043 - INFO - 127.0.0.1 - - [02/Apr/2026 14:00:41] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:00:43,962 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:00:43,962 - DEBUG - Starting new HTTPS connection (1): techplus.fun:443
+2026-04-02 14:00:44,775 - DEBUG - https://techplus.fun:443 "HEAD / HTTP/1.1" 200 0
+2026-04-02 14:00:44,775 - DEBUG - https://techplus.fun:443 "GET / HTTP/1.1" 200 None
+2026-04-02 14:00:44,785 - DEBUG - [https://techplus.fun] Server Response Code: 200
+2026-04-02 14:00:44,785 - DEBUG - [https://techplus.fun] Server Headers: {'Connection': 'Keep-Alive', 'Keep-Alive': 'timeout=5, max=100', 'X-Powered-By': 'PHP/8.1.34', 'Content-Type': 'text/html; charset=UTF-8', 'Transfer-Encoding': 'chunked', 'Content-Encoding': 'gzip', 'Vary': 'Accept-Encoding', 'Date': 'Thu, 02 Apr 2026 08:30:43 GMT', 'Server': 'LiteSpeed', 'platform': 'hostinger', 'panel': 'hpanel', 'Retry-After': '60', 'Content-Security-Policy': 'upgrade-insecure-requests', 'alt-svc': 'h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"'}
+2026-04-02 14:00:44,827 - DEBUG - Features dictionary extracted for https://techplus.fun
+2026-04-02 14:00:44,900 - INFO - URL: https://techplus.fun | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:00:44,900 - INFO - 127.0.0.1 - - [02/Apr/2026 14:00:44] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:00:55,625 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:00:55,628 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:00:56,672 - DEBUG - http://9779.info:80 "GET /%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ HTTP/1.1" 200 None
+2026-04-02 14:00:56,672 - WARNING - Failed to count redirects for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 14:00:56,674 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Response Code: 200
+2026-04-02 14:00:56,676 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:30:55 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 14:00:56,975 - DEBUG - Features dictionary extracted for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/
+2026-04-02 14:00:57,011 - INFO - URL: http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:00:57,021 - INFO - 127.0.0.1 - - [02/Apr/2026 14:00:57] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:00:58,800 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:00:58,800 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:00:59,400 - WARNING - Failed to count redirects for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 14:00:59,410 - DEBUG - http://9779.info:80 "GET /%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ HTTP/1.1" 200 None
+2026-04-02 14:00:59,413 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Response Code: 200
+2026-04-02 14:00:59,414 - DEBUG - [http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:30:58 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 14:00:59,417 - DEBUG - Features dictionary extracted for http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/
+2026-04-02 14:00:59,504 - INFO - URL: http://9779.info/%E5%84%BF%E7%AB%A5%E7%AB%8B%E4%BD%93%E7%BA%B8%E8%B4%B4%E7%94%BB/ | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:00:59,507 - INFO - 127.0.0.1 - - [02/Apr/2026 14:00:59] "POST /predict HTTP/1.1" 200 -
+2026-04-02 14:03:17,777 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 14:03:17,787 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:03:17,787 - DEBUG - Starting new HTTP connection (1): 9779.info:80
+2026-04-02 14:03:18,763 - DEBUG - http://9779.info:80 "GET /%E5%84%BF HTTP/1.1" 200 None
+2026-04-02 14:03:18,764 - DEBUG - [http://9779.info/%E5%84%BF] Server Response Code: 200
+2026-04-02 14:03:18,765 - DEBUG - [http://9779.info/%E5%84%BF] Server Headers: {'Server': 'openresty', 'Date': 'Thu, 02 Apr 2026 08:33:17 GMT', 'Content-Type': 'text/html', 'Transfer-Encoding': 'chunked', 'Connection': 'keep-alive', 'Cache-Control': 'no-store, max-age=0', 'Accept-CH': 'Sec-CH-UA, Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version, Sec-CH-UA-WoW64', 'Permissions-Policy': 'ch-ua=(self "https://*.parklogic.com"), ch-ua-arch=(self "https://*.parklogic.com"), ch-ua-bitness=(self "https://*.parklogic.com"), ch-ua-full-version=(self "https://*.parklogic.com"), ch-ua-full-version-list=(self "https://*.parklogic.com"), ch-ua-mobile=(self "https://*.parklogic.com"), ch-ua-model=(self "https://*.parklogic.com"), ch-ua-platform=(self "https://*.parklogic.com"), ch-ua-platform-version=(self "https://*.parklogic.com"), ch-ua-wow64=(self "https://*.parklogic.com")', 'Content-Encoding': 'gzip'}
+2026-04-02 14:03:18,788 - WARNING - Failed to count redirects for http://9779.info/%E5%84%BF: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2026-04-02 14:03:19,260 - DEBUG - Features dictionary extracted for http://9779.info/%E5%84%BF
+2026-04-02 14:03:19,277 - INFO - URL: http://9779.info/%E5%84%BF | Raw prediction: 0 | Probabilities: [0.62, 0.38]
+2026-04-02 14:03:52,476 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading
+2026-04-02 14:03:52,684 - INFO -  * Restarting with stat
+2026-04-02 14:03:53,300 - INFO - Starting WebSafe Detection API...
+2026-04-02 14:03:54,393 - INFO - Model loaded from G:\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\DOCUMENTATION\NEW\websafe_proto\ws\WebSafe\backend\phishing_model.pkl
+2026-04-02 14:03:54,400 - WARNING -  * Debugger is active!
+2026-04-02 14:03:54,413 - INFO -  * Debugger PIN: 441-872-849
+2026-04-02 14:04:09,500 - INFO -  * Detected change in 'G:\\IEM CATBOOST BASED MAJOR PROJECT INFORMATION SECURITY GROUP D18\\DOCUMENTATION\\NEW\\websafe_proto\\ws\\WebSafe\\backend\\app.py', reloading

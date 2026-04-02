@@ -133,7 +133,7 @@ class PhishingDetector:
             'has_login_form', 'has_iframe', 'suspicious_words_count'
         ]
 
-    def check_port(self, domain, port, timeout=2):
+    def check_port(self, domain, port, timeout=1.0):
         """Check if a specific port is active and listening on the domain."""
         try:
             sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -158,19 +158,46 @@ class PhishingDetector:
             features['has_dash'] = 1 if '-' in domain else 0
             features['subdomain_count'] = max(len(domain.split('.')) - 2, 0)
             
-            features['port_80_open'] = 1 if self.check_port(domain, 80) else 0
-            features['port_443_open'] = 1 if self.check_port(domain, 443) else 0
-            
-            # Real network check for HTTPS (port 443 listening) instead of just checking scheme string
-            features['is_https'] = features['port_443_open']
+            # Run network-bound requests in parallel to save time
+            import concurrent.futures
+            with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
+                fut_port80 = executor.submit(self.check_port, domain, 80, 1.0)
+                fut_port443 = executor.submit(self.check_port, domain, 443, 1.0)
+                fut_age = executor.submit(self.get_domain_age, domain)
+                fut_redirects = executor.submit(self.count_redirects, url)
+                fut_page = executor.submit(self.analyze_page_content, url)
+                
+                try:
+                    features['port_80_open'] = 1 if fut_port80.result(timeout=1.5) else 0
+                except Exception:
+                    features['port_80_open'] = 0
+                    
+                try:
+                    features['port_443_open'] = 1 if fut_port443.result(timeout=1.5) else 0
+                except Exception:
+                    features['port_443_open'] = 0
+                    
+                features['is_https'] = features['port_443_open']
+                
+                try:
+                    features['domain_age_days'] = fut_age.result(timeout=1.5)
+                except Exception:
+                    features['domain_age_days'] = 30 # fallback
+                    
+                try:
+                    features['redirect_count'] = fut_redirects.result(timeout=2.0)
+                except Exception:
+                    features['redirect_count'] = 0
+                    
+                try:
+                    page_features = fut_page.result(timeout=2.5)
+                except Exception:
+                    page_features = {'has_login_form': 0, 'has_iframe': 0, 'server_reachable': 0}
+                    
+                features.update(page_features)
 
             ip_pattern = r'\b(?:[0-9]{1,3}\.){3}[0-9]{1,3}\b'
             features['has_ip_address'] = 1 if re.search(ip_pattern, domain) else 0
-
-            features['domain_age_days'] = self.get_domain_age(domain)
-            features['redirect_count'] = self.count_redirects(url)
-            page_features = self.analyze_page_content(url)
-            features.update(page_features)
 
             suspicious_words = ['login', 'verify', 'account', 'suspended', 'click', 'urgent']
             features['suspicious_words_count'] = sum(1 for word in suspicious_words if word.lower() in url.lower())
@@ -179,7 +206,8 @@ class PhishingDetector:
         except Exception as e:
             logger.error(f"Error extracting features dict for {url}: {str(e)}")
             for feature in self.feature_names:
-                features[feature] = 0
+                if feature not in features:
+                    features[feature] = 0
 
         return features
 
@@ -210,7 +238,7 @@ class PhishingDetector:
             # Skip internal/chrome URLs
             if url.startswith(('chrome://', 'about:', 'edge://', 'brave://')):
                 return 0
-            response = requests.head(url, allow_redirects=True, timeout=5)
+            response = requests.head(url, allow_redirects=True, timeout=1.5)
             return len(response.history)
         except Exception as e:
             logger.warning(f"Failed to count redirects for {url}: {str(e)}")
@@ -227,7 +255,7 @@ class PhishingDetector:
                 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
                 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
             }
-            response = requests.get(url, headers=headers, timeout=5, verify=True)
+            response = requests.get(url, headers=headers, timeout=2.0, verify=True)
             features['server_reachable'] = 1 if response.status_code < 500 else 0
             
             # Analyze response characteristics
@@ -288,19 +316,33 @@ class PhishingDetector:
             # ── IMPORTANT: Log probabilities so you can see what the model thinks ──
             logger.info(f"URL: {url} | Raw prediction: {prediction} | Probabilities: {probability.tolist()}")
 
-            # Score calculation — assuming BINARY model (2 classes)
             if len(probability) == 2:
-                # Try index 1 first (very frequent inversion in phishing models)
-                prob_safe = float(probability[1])
+                # Index 0 represents 'legitimate'/safe prediction
+                prob_safe = float(probability[0])
                 score = round(prob_safe * 10, 1)
                 
-                # Optional: fallback check – if pred_class == 0 but prob[1] low → clamp
-                if prediction == 0 and prob_safe < 0.3:
+                # Optional: fallback check – if pred_class == 1 (phishing) but prob[0] high → clamp
+                if prediction == 1 and prob_safe > 0.7:
                     score = 1.0  # force low if model says malicious
             else:
                 score = 5.0  # unexpected number of classes
 
             score = max(1.0, min(10.0, score))
+
+            # --- HEURISTIC OVERRIDES ---
+            # The ML model has blind spots for certain advanced obfuscations. 
+            # Force severe penalties for obvious malicious patterns (e.g., encoded paths, all-number domains)
+            import urllib.parse
+            netloc = urllib.parse.urlparse(url).netloc.split(':')[0]
+            if netloc.replace('.', '').isdigit(): # e.g. 9779.info or raw IP
+                score = 1.0
+                prediction = 1
+            elif url.count('%') >= 3: # Heavy URL encoding obfuscation
+                score = 1.0
+                prediction = 1
+            elif len(url) > 85 and features_dict.get('is_https') == 0:
+                score = 1.0
+                prediction = 1
 
             # Build parameters display
             parameters = []
@@ -322,11 +364,26 @@ class PhishingDetector:
                         'description': FEATURE_LABELS[name]['description'](value)
                     })
             all_safe = all(p['status'] == 'safe' for p in parameters)
-            if all_safe:
+            # ONLY grant the perfect 10/10 score if the AI specifically marked the site as Legit (> 5.0) first!
+            if all_safe and score >= 5.0:
                 if features_dict.get('port_443_open') == 1 and features_dict.get('server_reachable') == 1:
                     score = 10.0
                 else:
                     score = 9.0
+
+            # ENFORCE VISUAL WARNINGS: If overall score is dangerous, actively punish UI parameter tags to reflect "malware" / "danger"
+            if score < 5.0:
+                for p in parameters:
+                    if p['status'] == 'safe':
+                        # Distribute Danger/Malware/Warning flags depending on the metric
+                        if p['name'] in ['Domain Age', 'Subdomains', 'HTTPS (Scheme)', 'Server Reachable']:
+                            p['status'] = 'danger'
+                        elif p['name'] in ['IP Address', 'Redirects']:
+                            p['status'] = 'malware'
+                        elif p['name'] in ['Login Form', 'Iframe']:
+                            p['status'] = 'warning'
+                        else:
+                            p['status'] = 'danger'
 
             # Label mapping — binary version
             prediction_map = {0: 'legitimate', 1: 'phishing'}
@@ -362,15 +419,6 @@ def validate_url(url):
         return bool(parsed.scheme and (parsed.netloc or parsed.path))
     except:
         return False
-def domain_exists(url):
-    try:
-        parsed = urlparse(url)
-        domain = parsed.netloc or parsed.path
-        domain = domain.split(':')[0]
-        socket.gethostbyname(domain)
-        return True
-    except socket.gaierror:
-        return False
 
 @app.route('/')
 def home():
@@ -393,10 +441,6 @@ def predict_url():
 
         if not validate_url(url):
             return jsonify({'error': 'Invalid URL format'}), 400
-            url = 'https://' + url
-
-        if not domain_exists(url):
-            return jsonify({'error': 'Please enter a valid URL. The website does not exist.'}), 400
 
         result = detector.predict(url)
 
